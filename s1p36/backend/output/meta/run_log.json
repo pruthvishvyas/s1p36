@@ -1,0 +1,88 @@
+{
+  "runs": [
+    {
+      "started": "2026-11-15T20:03:19",
+      "finished": "2026-11-15T20:03:33",
+      "stages": [
+        {
+          "name": "Data intake and validation",
+          "status": "ok",
+          "seconds": 0.07,
+          "reason": ""
+        },
+        {
+          "name": "Data cleaning",
+          "status": "ok",
+          "seconds": 0.1,
+          "reason": ""
+        },
+        {
+          "name": "Feature building",
+          "status": "ok",
+          "seconds": 0.06,
+          "reason": ""
+        },
+        {
+          "name": "Exploratory charts",
+          "status": "ok",
+          "seconds": 2.39,
+          "reason": ""
+        },
+        {
+          "name": "Risk model",
+          "status": "ok",
+          "seconds": 5.05,
+          "reason": ""
+        },
+        {
+          "name": "Customer segments and unusual months",
+          "status": "ok",
+          "seconds": 1.33,
+          "reason": ""
+        },
+        {
+          "name": "Next-month revenue forecast",
+          "status": "ok",
+          "seconds": 1.03,
+          "reason": ""
+        },
+        {
+          "name": "Business rules and actions",
+          "status": "ok",
+          "seconds": 0.16,
+          "reason": ""
+        },
+        {
+          "name": "What-if scenarios",
+          "status": "ok",
+          "seconds": 0.05,
+          "reason": ""
+        },
+        {
+          "name": "Goals and alerts",
+          "status": "ok",
+          "seconds": 0.07,
+          "reason": ""
+        },
+        {
+          "name": "Insights",
+          "status": "ok",
+          "seconds": 0.11,
+          "reason": ""
+        },
+        {
+          "name": "Excel workbook",
+          "status": "ok",
+          "seconds": 1.26,
+          "reason": ""
+        },
+        {
+          "name": "Interactive page",
+          "status": "ok",
+          "seconds": 1.16,
+          "reason": ""
+        }
+      ]
+    }
+  ]
+}

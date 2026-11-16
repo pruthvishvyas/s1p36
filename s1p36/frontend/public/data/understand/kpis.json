@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "key": "net_revenue",
+      "label": "Net revenue",
+      "value": 10605046.16,
+      "format": "currency",
+      "trend": 10.18,
+      "note": "Latest 3 month(s) versus the previous 3"
+    },
+    {
+      "key": "contribution",
+      "label": "Contribution profit",
+      "value": 2971905.46,
+      "format": "currency",
+      "trend": 9.92,
+      "note": "Latest 3 month(s) versus the previous 3"
+    },
+    {
+      "key": "margin",
+      "label": "Contribution margin",
+      "value": 28.02,
+      "format": "percent",
+      "trend": -0.24,
+      "note": "Latest 3 month(s) versus the previous 3"
+    },
+    {
+      "key": "orders",
+      "label": "Orders",
+      "value": 121897.0,
+      "format": "integer",
+      "trend": 8.85,
+      "note": "Latest 3 month(s) versus the previous 3"
+    },
+    {
+      "key": "conversion",
+      "label": "Conversion rate",
+      "value": 2.56,
+      "format": "percent",
+      "trend": 5.0,
+      "note": "Latest 3 month(s) versus the previous 3"
+    },
+    {
+      "key": "aov",
+      "label": "Average order value",
+      "value": 87.0,
+      "format": "currency",
+      "trend": 1.23,
+      "note": "Latest 3 month(s) versus the previous 3"
+    },
+    {
+      "key": "attainment",
+      "label": "Revenue vs target",
+      "value": 97.68,
+      "format": "percent",
+      "trend": 5.01,
+      "note": "Latest 3 month(s) versus the previous 3"
+    },
+    {
+      "key": "returns",
+      "label": "Return rate on gross sales",
+      "value": 12.85,
+      "format": "percent",
+      "trend": 0.7,
+      "note": "Latest 3 month(s) versus the previous 3"
+    },
+    {
+      "key": "at_risk_share",
+      "label": "Category-months at risk",
+      "value": 59.62,
+      "format": "percent",
+      "trend": null,
+      "note": "Share of all category-months in the at-risk group"
+    }
+  ]
+}

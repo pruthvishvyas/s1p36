@@ -1,0 +1,43 @@
+{
+  "id": "anomaly_rate_by_category",
+  "title": "Unusual months by category",
+  "type": "bar",
+  "question": "Where do unusual months cluster?",
+  "x_label": "Category",
+  "y_label": "% unusual",
+  "data": [
+    {
+      "label": "Beauty & Wellness",
+      "value": 0.0
+    },
+    {
+      "label": "Kitchen & Dining",
+      "value": 0.0
+    },
+    {
+      "label": "Tech Accessories",
+      "value": 0.0
+    },
+    {
+      "label": "Home & Living",
+      "value": 3.85
+    },
+    {
+      "label": "Kids & Toys",
+      "value": 3.85
+    },
+    {
+      "label": "Outdoor & Travel",
+      "value": 7.69
+    },
+    {
+      "label": "Footwear",
+      "value": 19.23
+    },
+    {
+      "label": "Apparel",
+      "value": 30.77
+    }
+  ],
+  "outcome": "understand"
+}

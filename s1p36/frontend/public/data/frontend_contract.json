@@ -1,0 +1,197 @@
+{
+  "schema_version": "1",
+  "generated_at": "2026-11-15T20:03:45",
+  "project": {
+    "name": "s1p36",
+    "domain": "ecommerce",
+    "client_id": "s1p36",
+    "description": "Monthly performance of an online store by product category: traffic, funnel, pricing, margin and revenue target attainment."
+  },
+  "terminology": {
+    "revenue": "Net revenue",
+    "customer": "Shopper",
+    "product": "Category",
+    "transaction": "Order"
+  },
+  "source": {
+    "type": "csv",
+    "file": "data/processed/feature_store.csv"
+  },
+  "outcomes": {
+    "understand": {
+      "kpis": "understand/kpis.json",
+      "charts": "understand/charts.json",
+      "segments": "understand/segments.json",
+      "anomalies": "understand/anomalies.json",
+      "explorer": "understand/explorer.json"
+    },
+    "decide": {
+      "insights": "decide/insights.json",
+      "recommendations": "decide/recommendations.json",
+      "simulations": "decide/simulations/index.json",
+      "goals": "decide/goals.json"
+    },
+    "monitor": {
+      "forecast": "monitor/forecast.json",
+      "forecast_lookup": null,
+      "scorer": null,
+      "goal_progress": "monitor/goal_progress.json",
+      "alerts": "monitor/alerts.json"
+    }
+  },
+  "model": {
+    "type": "Logistic Regression",
+    "pkl_file": "best_model.joblib",
+    "feature_cols_file": "feature_cols.json",
+    "input_fields": [],
+    "output_label": "missed revenue target",
+    "horizon": "1 month"
+  },
+  "forecaster": {
+    "input_schema": [],
+    "output_schema": {
+      "prediction": "int",
+      "probability": "float",
+      "risk_level": "str"
+    },
+    "lookup_file": null
+  },
+  "frontend": {
+    "framework": "react",
+    "deploy_target": "cloudflare_workers"
+  },
+  "files": [
+    {
+      "filename": "decide/goals.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "decide/insights.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "decide/recommendations.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "decide/simulations/checkout_lift.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "decide/simulations/index.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "decide/simulations/price_change.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "decide/simulations/stockout_recovery.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "meta/model_meta.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "meta/run_log.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "meta/summary.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "meta/terminology.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "monitor/alerts.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "monitor/forecast.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "monitor/goal_progress.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "monitor/scorer.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/anomalies.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/anomaly_rate_by_category.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/attainment_by_category.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/correlation.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/discount_distribution.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/health_score_distribution.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/monthly_trend.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/outcome_heatmap.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/outcome_rate_by_category.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/priority_breakdown.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/segment_sizes.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/sessions_vs_revenue.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/target_balance.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/charts/top_feature_importance.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/explorer.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/kpis.json",
+      "purpose": "dashboard data"
+    },
+    {
+      "filename": "understand/segments.json",
+      "purpose": "dashboard data"
+    }
+  ]
+}

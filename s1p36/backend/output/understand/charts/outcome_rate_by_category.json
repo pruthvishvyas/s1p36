@@ -1,0 +1,43 @@
+{
+  "id": "outcome_rate_by_category",
+  "title": "Outcome rate by category",
+  "type": "bar",
+  "question": "Which categories most often land in the at-risk group?",
+  "x_label": "Category",
+  "y_label": "% of months",
+  "data": [
+    {
+      "label": "Footwear",
+      "value": 38.46
+    },
+    {
+      "label": "Apparel",
+      "value": 42.31
+    },
+    {
+      "label": "Tech Accessories",
+      "value": 46.15
+    },
+    {
+      "label": "Kids & Toys",
+      "value": 61.54
+    },
+    {
+      "label": "Kitchen & Dining",
+      "value": 65.38
+    },
+    {
+      "label": "Home & Living",
+      "value": 69.23
+    },
+    {
+      "label": "Outdoor & Travel",
+      "value": 69.23
+    },
+    {
+      "label": "Beauty & Wellness",
+      "value": 84.62
+    }
+  ],
+  "outcome": "decide"
+}

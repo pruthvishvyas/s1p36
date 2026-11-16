@@ -1,0 +1,19 @@
+{
+  "id": "target_balance",
+  "title": "Category-months by outcome",
+  "type": "bar",
+  "question": "How often does a category miss its goal?",
+  "x_label": "Outcome",
+  "y_label": "Category-months",
+  "data": [
+    {
+      "label": "Met target",
+      "value": 84
+    },
+    {
+      "label": "Missed target",
+      "value": 124
+    }
+  ],
+  "outcome": "understand"
+}

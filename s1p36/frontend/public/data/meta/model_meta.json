@@ -1,0 +1,27 @@
+{
+  "model_name": "Logistic Regression",
+  "algorithm": "LogisticRegression",
+  "feature_count": 19,
+  "feature_cols": [
+    "Sessions",
+    "Add_to_Carts",
+    "Checkouts_Started",
+    "List_Price_Avg",
+    "Avg_Selling_Price",
+    "Discount_Depth_Pct",
+    "Competitor_Price_Index",
+    "Promo_Days",
+    "Stockout_Days",
+    "Marketing_Cost_Allocated",
+    "Month_Num",
+    "cart_rate",
+    "checkout_rate",
+    "discount_intensity",
+    "stockout_share",
+    "marketing_per_session",
+    "price_vs_competitor",
+    "log_revenue_target",
+    "Category"
+  ],
+  "models_ready": true
+}

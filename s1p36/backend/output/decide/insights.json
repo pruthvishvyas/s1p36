@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "severity": "HIGH",
+      "category": "Revenue Health",
+      "finding": "59.6% of category-months fall in the group: missed target.",
+      "evidence": "124 of 208 category-months; total shortfall against target across all months is 3,270,661.",
+      "action": "Review the listed categories first in this week's trading meeting.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "HIGH",
+      "category": "Margin",
+      "finding": "Contribution margin ranges from 21.8% in Apparel to 38.5% in Beauty & Wellness.",
+      "evidence": "Margin is contribution profit divided by net revenue over all months.",
+      "action": "Shift marketing budget from Apparel toward Beauty & Wellness where traffic allows.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "HIGH",
+      "category": "Revenue Health",
+      "finding": "Home & Living has the largest cumulative gap to target.",
+      "evidence": "Net revenue 13,124,542 against target 14,113,821, a gap of 989,279.",
+      "action": "Set a recovery plan for Home & Living with traffic and price actions.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Model Output",
+      "finding": "The risk model ranks log_revenue_target, Category_Tech Accessories, Category_Home & Living as its main signals.",
+      "evidence": "Logistic Regression, held-out AUC 0.83 on 52 rows; better than the naive baseline.",
+      "action": "Watch these measures weekly for early warning.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Alert Pattern",
+      "finding": "High Returns is the most common alert in the latest month.",
+      "evidence": "3 of 8 categories carry it.",
+      "action": "Review product pages and sizing guidance.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Inventory Risk",
+      "finding": "Category-months with repeated stockouts show a different at-risk rate.",
+      "evidence": "At-risk rate 100.0% with 3 or more stockout days (2 rows) against 59.2% otherwise (206 rows).",
+      "action": "Bring reorder points forward for categories that stock out twice in a quarter.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Performance Score",
+      "finding": "The lowest quarter of health scores holds most of the at-risk months.",
+      "evidence": "At-risk rate 92.3% in the lowest quarter (52 rows) against 48.7% in the rest.",
+      "action": "Use the health score to rank the weekly review list.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "LOW",
+      "category": "Pricing and Promotions",
+      "finding": "Months with the deepest discounts are linked with a different at-risk rate.",
+      "evidence": "At-risk rate 46.2% in the top discount quarter (52 rows) against 64.1% elsewhere (156 rows).",
+      "action": "Cap discount depth for categories that sit in the top quarter.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "LOW",
+      "category": "Anomalies",
+      "finding": "17 category-months behave unusually, most often in Apparel.",
+      "evidence": "8.2% of rows flagged; at-risk rate among them 47.1%.",
+      "action": "Check the flagged months for data errors or one-off events.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "LOW",
+      "category": "Funnel",
+      "finding": "Home & Living has the weakest checkout completion.",
+      "evidence": "Average completion 51.5% against 55.1% for the whole store.",
+      "action": "Test a shorter checkout and cart reminders for Home & Living.",
+      "outcome": "DECIDE"
+    },
+    {
+      "severity": "LOW",
+      "category": "Returns",
+      "finding": "Apparel has the highest average return rate.",
+      "evidence": "26.5% average return rate against 12.3% store-wide.",
+      "action": "Review product descriptions and sizing for Apparel.",
+      "outcome": "DECIDE"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "health_score_distribution",
+  "title": "Health score distribution",
+  "type": "histogram",
+  "question": "How is performance spread across category-months?",
+  "x_label": "Health score",
+  "y_label": "Category-months",
+  "data": [
+    {
+      "label": "13.44 to 19.52",
+      "value": 8
+    },
+    {
+      "label": "19.52 to 25.60",
+      "value": 12
+    },
+    {
+      "label": "25.60 to 31.69",
+      "value": 13
+    },
+    {
+      "label": "31.69 to 37.77",
+      "value": 18
+    },
+    {
+      "label": "37.77 to 43.86",
+      "value": 28
+    },
+    {
+      "label": "43.86 to 49.94",
+      "value": 18
+    },
+    {
+      "label": "49.94 to 56.02",
+      "value": 31
+    },
+    {
+      "label": "56.02 to 62.11",
+      "value": 23
+    },
+    {
+      "label": "62.11 to 68.19",
+      "value": 22
+    },
+    {
+      "label": "68.19 to 74.27",
+      "value": 18
+    },
+    {
+      "label": "74.27 to 80.36",
+      "value": 11
+    },
+    {
+      "label": "80.36 to 86.44",
+      "value": 6
+    }
+  ],
+  "outcome": "decide"
+}

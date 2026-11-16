@@ -1,0 +1,51 @@
+{
+  "id": "top_feature_importance",
+  "title": "Top drivers of the at-risk outcome",
+  "type": "bar",
+  "question": "Which measures matter most to the risk model?",
+  "x_label": "Measure",
+  "y_label": "Importance",
+  "data": [
+    {
+      "label": "log_revenue_target",
+      "value": 0.1151
+    },
+    {
+      "label": "Category_Tech Accessories",
+      "value": 0.1021
+    },
+    {
+      "label": "Category_Home & Living",
+      "value": 0.0824
+    },
+    {
+      "label": "marketing_per_session",
+      "value": 0.0785
+    },
+    {
+      "label": "Sessions",
+      "value": 0.0526
+    },
+    {
+      "label": "Category_Beauty & Wellness",
+      "value": 0.0522
+    },
+    {
+      "label": "Marketing_Cost_Allocated",
+      "value": 0.046
+    },
+    {
+      "label": "Category_Kitchen & Dining",
+      "value": 0.0453
+    },
+    {
+      "label": "Category_Footwear",
+      "value": 0.0439
+    },
+    {
+      "label": "discount_intensity",
+      "value": 0.0426
+    }
+  ],
+  "outcome": "understand"
+}

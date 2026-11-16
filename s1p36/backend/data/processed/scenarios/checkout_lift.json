@@ -1,0 +1,251 @@
+{
+  "id": "checkout_lift",
+  "title": "Checkout completion lift",
+  "description": "What a higher share of started checkouts completing would add in the latest month.",
+  "variable": {
+    "key": "lift_pts",
+    "label": "Completion rate gain",
+    "unit": "points",
+    "min": 0,
+    "max": 15,
+    "step": 0.5,
+    "default": 0,
+    "format": "decimal"
+  },
+  "outputs": [
+    {
+      "key": "net_revenue",
+      "label": "Net revenue",
+      "format": "currency"
+    },
+    {
+      "key": "contribution",
+      "label": "Contribution profit",
+      "format": "currency"
+    }
+  ],
+  "table": [
+    {
+      "x": 0.0,
+      "values": {
+        "net_revenue": 3739969.6100000003,
+        "contribution": 1046163.6
+      }
+    },
+    {
+      "x": 0.5,
+      "values": {
+        "net_revenue": 3773549.2071762383,
+        "contribution": 1061329.155313633
+      }
+    },
+    {
+      "x": 1.0,
+      "values": {
+        "net_revenue": 3807128.8043524767,
+        "contribution": 1076494.7106272657
+      }
+    },
+    {
+      "x": 1.5,
+      "values": {
+        "net_revenue": 3840708.4015287147,
+        "contribution": 1091660.2659408986
+      }
+    },
+    {
+      "x": 2.0,
+      "values": {
+        "net_revenue": 3874287.998704953,
+        "contribution": 1106825.8212545314
+      }
+    },
+    {
+      "x": 2.5,
+      "values": {
+        "net_revenue": 3907867.595881191,
+        "contribution": 1121991.3765681642
+      }
+    },
+    {
+      "x": 3.0,
+      "values": {
+        "net_revenue": 3941447.1930574295,
+        "contribution": 1137156.931881797
+      }
+    },
+    {
+      "x": 3.5,
+      "values": {
+        "net_revenue": 3975026.7902336675,
+        "contribution": 1152322.4871954299
+      }
+    },
+    {
+      "x": 4.0,
+      "values": {
+        "net_revenue": 4008606.3874099064,
+        "contribution": 1167488.0425090631
+      }
+    },
+    {
+      "x": 4.5,
+      "values": {
+        "net_revenue": 4042185.984586144,
+        "contribution": 1182653.5978226955
+      }
+    },
+    {
+      "x": 5.0,
+      "values": {
+        "net_revenue": 4075765.5817623828,
+        "contribution": 1197819.1531363288
+      }
+    },
+    {
+      "x": 5.5,
+      "values": {
+        "net_revenue": 4109345.1789386203,
+        "contribution": 1212984.7084499612
+      }
+    },
+    {
+      "x": 6.0,
+      "values": {
+        "net_revenue": 4142924.776114859,
+        "contribution": 1228150.2637635944
+      }
+    },
+    {
+      "x": 6.5,
+      "values": {
+        "net_revenue": 4176504.373291097,
+        "contribution": 1243315.8190772273
+      }
+    },
+    {
+      "x": 7.0,
+      "values": {
+        "net_revenue": 4210083.970467336,
+        "contribution": 1258481.37439086
+      }
+    },
+    {
+      "x": 7.5,
+      "values": {
+        "net_revenue": 4243663.5676435735,
+        "contribution": 1273646.929704493
+      }
+    },
+    {
+      "x": 8.0,
+      "values": {
+        "net_revenue": 4277243.164819812,
+        "contribution": 1288812.4850181262
+      }
+    },
+    {
+      "x": 8.5,
+      "values": {
+        "net_revenue": 4310822.761996049,
+        "contribution": 1303978.040331758
+      }
+    },
+    {
+      "x": 9.0,
+      "values": {
+        "net_revenue": 4344402.359172287,
+        "contribution": 1319143.595645391
+      }
+    },
+    {
+      "x": 9.5,
+      "values": {
+        "net_revenue": 4377981.956348526,
+        "contribution": 1334309.1509590242
+      }
+    },
+    {
+      "x": 10.0,
+      "values": {
+        "net_revenue": 4411561.553524765,
+        "contribution": 1349474.7062726575
+      }
+    },
+    {
+      "x": 10.5,
+      "values": {
+        "net_revenue": 4445141.150701003,
+        "contribution": 1364640.2615862903
+      }
+    },
+    {
+      "x": 11.0,
+      "values": {
+        "net_revenue": 4478720.74787724,
+        "contribution": 1379805.8168999222
+      }
+    },
+    {
+      "x": 11.5,
+      "values": {
+        "net_revenue": 4512300.345053479,
+        "contribution": 1394971.3722135555
+      }
+    },
+    {
+      "x": 12.0,
+      "values": {
+        "net_revenue": 4545879.942229717,
+        "contribution": 1410136.9275271883
+      }
+    },
+    {
+      "x": 12.5,
+      "values": {
+        "net_revenue": 4579459.539405956,
+        "contribution": 1425302.4828408216
+      }
+    },
+    {
+      "x": 13.0,
+      "values": {
+        "net_revenue": 4613039.136582194,
+        "contribution": 1440468.0381544544
+      }
+    },
+    {
+      "x": 13.5,
+      "values": {
+        "net_revenue": 4646618.733758432,
+        "contribution": 1455633.5934680868
+      }
+    },
+    {
+      "x": 14.0,
+      "values": {
+        "net_revenue": 4680198.33093467,
+        "contribution": 1470799.1487817196
+      }
+    },
+    {
+      "x": 14.5,
+      "values": {
+        "net_revenue": 4713777.928110908,
+        "contribution": 1485964.7040953524
+      }
+    },
+    {
+      "x": 15.0,
+      "values": {
+        "net_revenue": 4747357.525287147,
+        "contribution": 1501130.2594089857
+      }
+    }
+  ],
+  "assumptions": [
+    "Current completion rate is 56% on average",
+    "Extra orders carry the same basket value and unit costs",
+    "Traffic and started checkouts stay unchanged"
+  ]
+}

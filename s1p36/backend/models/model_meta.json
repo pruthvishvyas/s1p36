@@ -1,0 +1,173 @@
+{
+  "model_name": "Logistic Regression",
+  "algorithm": "LogisticRegression",
+  "task": "classification",
+  "target": "missed revenue target",
+  "positive_label": "Missed target",
+  "feature_count": 19,
+  "feature_cols": [
+    "Sessions",
+    "Add_to_Carts",
+    "Checkouts_Started",
+    "List_Price_Avg",
+    "Avg_Selling_Price",
+    "Discount_Depth_Pct",
+    "Competitor_Price_Index",
+    "Promo_Days",
+    "Stockout_Days",
+    "Marketing_Cost_Allocated",
+    "Month_Num",
+    "cart_rate",
+    "checkout_rate",
+    "discount_intensity",
+    "stockout_share",
+    "marketing_per_session",
+    "price_vs_competitor",
+    "log_revenue_target",
+    "Category"
+  ],
+  "numeric": [
+    "Sessions",
+    "Add_to_Carts",
+    "Checkouts_Started",
+    "List_Price_Avg",
+    "Avg_Selling_Price",
+    "Discount_Depth_Pct",
+    "Competitor_Price_Index",
+    "Promo_Days",
+    "Stockout_Days",
+    "Marketing_Cost_Allocated",
+    "Month_Num",
+    "cart_rate",
+    "checkout_rate",
+    "discount_intensity",
+    "stockout_share",
+    "marketing_per_session",
+    "price_vs_competitor",
+    "log_revenue_target"
+  ],
+  "categorical": [
+    "Category"
+  ],
+  "results": {
+    "Logistic Regression": {
+      "cv_auc_mean": 0.7644624381466487,
+      "cv_auc_std": 0.06470037946045087,
+      "test_auc": 0.82642089093702,
+      "test_acc": 0.7115384615384616
+    },
+    "Random Forest": {
+      "cv_auc_mean": 0.7441295546558704,
+      "cv_auc_std": 0.07337407826839637,
+      "test_auc": 0.7235023041474654,
+      "test_acc": 0.6153846153846154
+    },
+    "Gradient Boosting": {
+      "cv_auc_mean": 0.7406882591093118,
+      "cv_auc_std": 0.08336780502664767,
+      "test_auc": 0.7112135176651305,
+      "test_acc": 0.6346153846153846
+    },
+    "XGBoost": {
+      "cv_auc_mean": 0.754093567251462,
+      "cv_auc_std": 0.06112860478391022,
+      "test_auc": 0.7204301075268817,
+      "test_acc": 0.6730769230769231
+    }
+  },
+  "test_rows": 52,
+  "train_rows": 156,
+  "cv_folds": 5,
+  "baseline_accuracy": 0.5961538461538461,
+  "rule_baseline_accuracy": 0.4807692307692308,
+  "test_recall": 0.7096774193548387,
+  "test_precision": 0.7857142857142857,
+  "beats_baseline": true,
+  "low_sample": false,
+  "leakage_dropped": [],
+  "importance_by_field": {
+    "Sessions": 0.05255758803941671,
+    "Add_to_Carts": 0.02831912228408719,
+    "Checkouts_Started": 0.03273837348674483,
+    "List_Price_Avg": 0.020890067331568788,
+    "Avg_Selling_Price": 0.010530317917022492,
+    "Discount_Depth_Pct": 0.03480470828770886,
+    "Competitor_Price_Index": 0.005930839323667249,
+    "Promo_Days": 0.007279171914738056,
+    "Stockout_Days": 0.03878244073859503,
+    "Marketing_Cost_Allocated": 0.046007744682301975,
+    "Month_Num": 0.017784094062799304,
+    "cart_rate": 0.017561323080533184,
+    "checkout_rate": 0.02880475179090254,
+    "discount_intensity": 0.042582317909743025,
+    "stockout_share": 0.03878244073859502,
+    "marketing_per_session": 0.07850605550885334,
+    "price_vs_competitor": 0.005930839323667276,
+    "log_revenue_target": 0.11513409098523375,
+    "Category": 0.3770737125938214
+  },
+  "top_features": [
+    [
+      "log_revenue_target",
+      0.11513409098523375
+    ],
+    [
+      "Category_Tech Accessories",
+      0.10205910358707133
+    ],
+    [
+      "Category_Home & Living",
+      0.08241901012567406
+    ],
+    [
+      "marketing_per_session",
+      0.07850605550885334
+    ],
+    [
+      "Sessions",
+      0.05255758803941671
+    ],
+    [
+      "Category_Beauty & Wellness",
+      0.05217622689383713
+    ],
+    [
+      "Marketing_Cost_Allocated",
+      0.046007744682301975
+    ],
+    [
+      "Category_Kitchen & Dining",
+      0.04533447518062063
+    ],
+    [
+      "Category_Footwear",
+      0.04385381017724257
+    ],
+    [
+      "discount_intensity",
+      0.042582317909743025
+    ],
+    [
+      "Stockout_Days",
+      0.03878244073859503
+    ],
+    [
+      "stockout_share",
+      0.03878244073859502
+    ],
+    [
+      "Discount_Depth_Pct",
+      0.03480470828770886
+    ],
+    [
+      "Checkouts_Started",
+      0.03273837348674483
+    ],
+    [
+      "checkout_rate",
+      0.02880475179090254
+    ]
+  ],
+  "split_method": "stratified random split, seeded",
+  "models_ready": true
+}

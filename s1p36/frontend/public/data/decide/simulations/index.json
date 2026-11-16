@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "price_change",
+      "title": "Price change",
+      "file": "decide/simulations/price_change.json"
+    },
+    {
+      "id": "checkout_lift",
+      "title": "Checkout completion lift",
+      "file": "decide/simulations/checkout_lift.json"
+    },
+    {
+      "id": "stockout_recovery",
+      "title": "Stockout reduction",
+      "file": "decide/simulations/stockout_recovery.json"
+    }
+  ]
+}

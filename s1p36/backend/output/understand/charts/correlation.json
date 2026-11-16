@@ -1,0 +1,511 @@
+{
+  "id": "correlation",
+  "title": "Correlation of key measures",
+  "type": "heatmap",
+  "question": "Which measures move together?",
+  "x_label": "Measure",
+  "y_label": "Measure",
+  "data": [
+    {
+      "row": "Sessions",
+      "col": "Sessions",
+      "value": 1.0
+    },
+    {
+      "row": "Sessions",
+      "col": "Orders",
+      "value": 0.957
+    },
+    {
+      "row": "Sessions",
+      "col": "Net_Revenue",
+      "value": 0.926
+    },
+    {
+      "row": "Sessions",
+      "col": "Contribution_Profit",
+      "value": 0.719
+    },
+    {
+      "row": "Sessions",
+      "col": "Discount_Depth_Pct",
+      "value": 0.667
+    },
+    {
+      "row": "Sessions",
+      "col": "Return_Rate",
+      "value": 0.634
+    },
+    {
+      "row": "Sessions",
+      "col": "Competitor_Price_Index",
+      "value": 0.085
+    },
+    {
+      "row": "Sessions",
+      "col": "Stockout_Days",
+      "value": 0.079
+    },
+    {
+      "row": "Sessions",
+      "col": "Conversion_Rate",
+      "value": -0.417
+    },
+    {
+      "row": "Sessions",
+      "col": "Marketing_Cost_Allocated",
+      "value": 0.927
+    },
+    {
+      "row": "Orders",
+      "col": "Sessions",
+      "value": 0.957
+    },
+    {
+      "row": "Orders",
+      "col": "Orders",
+      "value": 1.0
+    },
+    {
+      "row": "Orders",
+      "col": "Net_Revenue",
+      "value": 0.918
+    },
+    {
+      "row": "Orders",
+      "col": "Contribution_Profit",
+      "value": 0.753
+    },
+    {
+      "row": "Orders",
+      "col": "Discount_Depth_Pct",
+      "value": 0.645
+    },
+    {
+      "row": "Orders",
+      "col": "Return_Rate",
+      "value": 0.537
+    },
+    {
+      "row": "Orders",
+      "col": "Competitor_Price_Index",
+      "value": 0.026
+    },
+    {
+      "row": "Orders",
+      "col": "Stockout_Days",
+      "value": -0.026
+    },
+    {
+      "row": "Orders",
+      "col": "Conversion_Rate",
+      "value": -0.153
+    },
+    {
+      "row": "Orders",
+      "col": "Marketing_Cost_Allocated",
+      "value": 0.919
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Sessions",
+      "value": 0.926
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Orders",
+      "value": 0.918
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Net_Revenue",
+      "value": 1.0
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Contribution_Profit",
+      "value": 0.814
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Discount_Depth_Pct",
+      "value": 0.625
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Return_Rate",
+      "value": 0.575
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Competitor_Price_Index",
+      "value": 0.088
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Stockout_Days",
+      "value": 0.042
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Conversion_Rate",
+      "value": -0.321
+    },
+    {
+      "row": "Net_Revenue",
+      "col": "Marketing_Cost_Allocated",
+      "value": 0.99
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Sessions",
+      "value": 0.719
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Orders",
+      "value": 0.753
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Net_Revenue",
+      "value": 0.814
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Contribution_Profit",
+      "value": 1.0
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Discount_Depth_Pct",
+      "value": 0.178
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Return_Rate",
+      "value": 0.252
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Competitor_Price_Index",
+      "value": 0.164
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Stockout_Days",
+      "value": 0.024
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Conversion_Rate",
+      "value": -0.169
+    },
+    {
+      "row": "Contribution_Profit",
+      "col": "Marketing_Cost_Allocated",
+      "value": 0.778
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Sessions",
+      "value": 0.667
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Orders",
+      "value": 0.645
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Net_Revenue",
+      "value": 0.625
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Contribution_Profit",
+      "value": 0.178
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Discount_Depth_Pct",
+      "value": 1.0
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Return_Rate",
+      "value": 0.732
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Competitor_Price_Index",
+      "value": -0.103
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Stockout_Days",
+      "value": -0.003
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Conversion_Rate",
+      "value": -0.253
+    },
+    {
+      "row": "Discount_Depth_Pct",
+      "col": "Marketing_Cost_Allocated",
+      "value": 0.64
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Sessions",
+      "value": 0.634
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Orders",
+      "value": 0.537
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Net_Revenue",
+      "value": 0.575
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Contribution_Profit",
+      "value": 0.252
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Discount_Depth_Pct",
+      "value": 0.732
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Return_Rate",
+      "value": 1.0
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Competitor_Price_Index",
+      "value": -0.04
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Stockout_Days",
+      "value": 0.035
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Conversion_Rate",
+      "value": -0.466
+    },
+    {
+      "row": "Return_Rate",
+      "col": "Marketing_Cost_Allocated",
+      "value": 0.55
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Sessions",
+      "value": 0.085
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Orders",
+      "value": 0.026
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Net_Revenue",
+      "value": 0.088
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Contribution_Profit",
+      "value": 0.164
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Discount_Depth_Pct",
+      "value": -0.103
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Return_Rate",
+      "value": -0.04
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Competitor_Price_Index",
+      "value": 1.0
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Stockout_Days",
+      "value": -0.03
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Conversion_Rate",
+      "value": -0.258
+    },
+    {
+      "row": "Competitor_Price_Index",
+      "col": "Marketing_Cost_Allocated",
+      "value": 0.085
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Sessions",
+      "value": 0.079
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Orders",
+      "value": -0.026
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Net_Revenue",
+      "value": 0.042
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Contribution_Profit",
+      "value": 0.024
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Discount_Depth_Pct",
+      "value": -0.003
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Return_Rate",
+      "value": 0.035
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Competitor_Price_Index",
+      "value": -0.03
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Stockout_Days",
+      "value": 1.0
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Conversion_Rate",
+      "value": -0.284
+    },
+    {
+      "row": "Stockout_Days",
+      "col": "Marketing_Cost_Allocated",
+      "value": 0.042
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Sessions",
+      "value": -0.417
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Orders",
+      "value": -0.153
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Net_Revenue",
+      "value": -0.321
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Contribution_Profit",
+      "value": -0.169
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Discount_Depth_Pct",
+      "value": -0.253
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Return_Rate",
+      "value": -0.466
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Competitor_Price_Index",
+      "value": -0.258
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Stockout_Days",
+      "value": -0.284
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Conversion_Rate",
+      "value": 1.0
+    },
+    {
+      "row": "Conversion_Rate",
+      "col": "Marketing_Cost_Allocated",
+      "value": -0.318
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Sessions",
+      "value": 0.927
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Orders",
+      "value": 0.919
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Net_Revenue",
+      "value": 0.99
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Contribution_Profit",
+      "value": 0.778
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Discount_Depth_Pct",
+      "value": 0.64
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Return_Rate",
+      "value": 0.55
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Competitor_Price_Index",
+      "value": 0.085
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Stockout_Days",
+      "value": 0.042
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Conversion_Rate",
+      "value": -0.318
+    },
+    {
+      "row": "Marketing_Cost_Allocated",
+      "col": "Marketing_Cost_Allocated",
+      "value": 1.0
+    }
+  ],
+  "outcome": "understand"
+}

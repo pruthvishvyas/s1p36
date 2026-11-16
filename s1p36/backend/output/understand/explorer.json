@@ -1,0 +1,7394 @@
+{
+  "dimensions": [
+    {
+      "key": "category",
+      "label": "Category",
+      "values": [
+        "Apparel",
+        "Beauty & Wellness",
+        "Footwear",
+        "Home & Living",
+        "Kids & Toys",
+        "Kitchen & Dining",
+        "Outdoor & Travel",
+        "Tech Accessories"
+      ]
+    },
+    {
+      "key": "segment",
+      "label": "Segment",
+      "values": [
+        "High performing",
+        "Low performing",
+        "Mid performing"
+      ]
+    },
+    {
+      "key": "priority",
+      "label": "Priority",
+      "values": [
+        "P1_URGENT",
+        "P2_HIGH",
+        "P3_MEDIUM",
+        "P4_ROUTINE"
+      ]
+    },
+    {
+      "key": "status",
+      "label": "Outcome",
+      "values": [
+        "At risk",
+        "On track"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "key": "net_revenue",
+      "label": "Net revenue",
+      "agg": "sum",
+      "format": "currency"
+    },
+    {
+      "key": "contribution",
+      "label": "Contribution profit",
+      "agg": "sum",
+      "format": "currency"
+    },
+    {
+      "key": "orders",
+      "label": "Orders",
+      "agg": "sum",
+      "format": "integer"
+    },
+    {
+      "key": "sessions",
+      "label": "Sessions",
+      "agg": "sum",
+      "format": "integer"
+    },
+    {
+      "key": "units",
+      "label": "Units sold",
+      "agg": "sum",
+      "format": "integer"
+    },
+    {
+      "key": "at_risk",
+      "label": "At-risk rate",
+      "agg": "rate",
+      "format": "percent"
+    },
+    {
+      "key": "margin_pct",
+      "label": "Contribution margin",
+      "agg": "ratio",
+      "format": "percent",
+      "num": "contribution",
+      "den": "net_revenue"
+    },
+    {
+      "key": "conversion_pct",
+      "label": "Conversion rate",
+      "agg": "ratio",
+      "format": "percent",
+      "num": "orders",
+      "den": "sessions"
+    },
+    {
+      "key": "aov",
+      "label": "Average order value",
+      "agg": "ratio",
+      "format": "currency",
+      "num": "net_revenue",
+      "den": "orders"
+    }
+  ],
+  "time": {
+    "grain": "month",
+    "min": "2024-09",
+    "max": "2026-10"
+  },
+  "rows": [
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P1_URGENT",
+        "status": "At risk"
+      },
+      "t": "2025-01",
+      "m": {
+        "net_revenue": {
+          "sum": 443922.18,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 80793.72,
+          "n": 1
+        },
+        "orders": {
+          "sum": 6254.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 266507.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 12869.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P1_URGENT",
+        "status": "On track"
+      },
+      "t": "2026-01",
+      "m": {
+        "net_revenue": {
+          "sum": 556998.17,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 91641.39,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8131.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 299797.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 16422.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-11",
+      "m": {
+        "net_revenue": {
+          "sum": 851092.3,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 102566.32,
+          "n": 1
+        },
+        "orders": {
+          "sum": 11974.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 490035.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 25713.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-02",
+      "m": {
+        "net_revenue": {
+          "sum": 506423.89,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 121537.81,
+          "n": 1
+        },
+        "orders": {
+          "sum": 6640.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 263174.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 13706.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P2_HIGH",
+        "status": "On track"
+      },
+      "t": "2024-11",
+      "m": {
+        "net_revenue": {
+          "sum": 881092.2,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 125552.59,
+          "n": 1
+        },
+        "orders": {
+          "sum": 11984.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 509320.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 25773.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2024-09",
+      "m": {
+        "net_revenue": {
+          "sum": 616239.4,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 162108.87,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7658.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 315644.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 15436.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2024-10",
+      "m": {
+        "net_revenue": {
+          "sum": 622908.44,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 154680.09,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7767.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 312549.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 16085.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-02",
+      "m": {
+        "net_revenue": {
+          "sum": 528879.29,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 134437.56,
+          "n": 1
+        },
+        "orders": {
+          "sum": 6790.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 275455.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 14231.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-08",
+      "m": {
+        "net_revenue": {
+          "sum": 611781.8,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 142766.86,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7634.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 327152.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 15842.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-04",
+      "m": {
+        "net_revenue": {
+          "sum": 642150.15,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 154134.18,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8224.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 334992.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 16693.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-05",
+      "m": {
+        "net_revenue": {
+          "sum": 713007.93,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 164179.36,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8624.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 349284.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 18115.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-09",
+      "m": {
+        "net_revenue": {
+          "sum": 751335.55,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 161292.22,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8736.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 339594.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 19471.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-10",
+      "m": {
+        "net_revenue": {
+          "sum": 799927.74,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 170695.23,
+          "n": 1
+        },
+        "orders": {
+          "sum": 9837.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 377113.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 20643.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2024-12",
+      "m": {
+        "net_revenue": {
+          "sum": 972633.51,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 193259.05,
+          "n": 1
+        },
+        "orders": {
+          "sum": 12906.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 505315.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 27238.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-03",
+      "m": {
+        "net_revenue": {
+          "sum": 621847.95,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 154154.63,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7239.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 311657.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 15602.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-04",
+      "m": {
+        "net_revenue": {
+          "sum": 631208.66,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 159919.53,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7254.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 300320.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 15731.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-05",
+      "m": {
+        "net_revenue": {
+          "sum": 639144.84,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 157753.57,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7434.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 297097.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 16215.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-06",
+      "m": {
+        "net_revenue": {
+          "sum": 664395.7,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 164489.11,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7777.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 321300.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 16954.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-07",
+      "m": {
+        "net_revenue": {
+          "sum": 668971.45,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 157867.03,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8226.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 326534.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 17368.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-09",
+      "m": {
+        "net_revenue": {
+          "sum": 687735.74,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 156156.99,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8519.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 344546.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 17982.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-10",
+      "m": {
+        "net_revenue": {
+          "sum": 777557.02,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 182775.64,
+          "n": 1
+        },
+        "orders": {
+          "sum": 9535.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 358067.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 19886.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-12",
+      "m": {
+        "net_revenue": {
+          "sum": 1068900.13,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 213699.86,
+          "n": 1
+        },
+        "orders": {
+          "sum": 13148.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 530485.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 29212.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-03",
+      "m": {
+        "net_revenue": {
+          "sum": 662559.4,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 152029.38,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8421.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 323378.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 16794.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-06",
+      "m": {
+        "net_revenue": {
+          "sum": 718230.63,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 176305.49,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8667.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 337661.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 18644.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-07",
+      "m": {
+        "net_revenue": {
+          "sum": 674640.71,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 140232.26,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8884.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 355448.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 18131.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Apparel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-08",
+      "m": {
+        "net_revenue": {
+          "sum": 749403.51,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 155689.39,
+          "n": 1
+        },
+        "orders": {
+          "sum": 9476.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 347938.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 19407.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-01",
+      "m": {
+        "net_revenue": {
+          "sum": 230438.25,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 85445.39,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3471.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 103994.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7896.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-02",
+      "m": {
+        "net_revenue": {
+          "sum": 235679.68,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 91849.2,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3381.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 109066.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7957.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-09",
+      "m": {
+        "net_revenue": {
+          "sum": 301675.2,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 116109.31,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4029.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 138804.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 9701.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-11",
+      "m": {
+        "net_revenue": {
+          "sum": 392598.81,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 127327.89,
+          "n": 1
+        },
+        "orders": {
+          "sum": 6093.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 206009.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 14416.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "On track"
+      },
+      "t": "2026-01",
+      "m": {
+        "net_revenue": {
+          "sum": 277223.61,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 106632.25,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3859.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 122201.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 9415.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-10",
+      "m": {
+        "net_revenue": {
+          "sum": 291083.45,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 113230.86,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3984.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 125831.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 9598.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-11",
+      "m": {
+        "net_revenue": {
+          "sum": 377069.36,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 121768.07,
+          "n": 1
+        },
+        "orders": {
+          "sum": 6115.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 198799.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 13813.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-12",
+      "m": {
+        "net_revenue": {
+          "sum": 481152.95,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 170363.21,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7350.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 231926.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 17272.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-03",
+      "m": {
+        "net_revenue": {
+          "sum": 274306.77,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 112338.01,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3635.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 127216.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8681.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-04",
+      "m": {
+        "net_revenue": {
+          "sum": 281037.68,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 111510.93,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3873.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 120158.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 9100.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-05",
+      "m": {
+        "net_revenue": {
+          "sum": 320241.41,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 126402.53,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4520.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 139054.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 10409.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-06",
+      "m": {
+        "net_revenue": {
+          "sum": 279323.7,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 111278.96,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3749.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 129212.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8985.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-08",
+      "m": {
+        "net_revenue": {
+          "sum": 328488.7,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 129798.42,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4420.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 140801.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 10574.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-10",
+      "m": {
+        "net_revenue": {
+          "sum": 372004.25,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 145391.72,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4928.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 165519.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 11894.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-12",
+      "m": {
+        "net_revenue": {
+          "sum": 570930.7,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 209117.23,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8472.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 277797.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 19595.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-02",
+      "m": {
+        "net_revenue": {
+          "sum": 301320.43,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 124001.86,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4008.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 127107.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 9719.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-03",
+      "m": {
+        "net_revenue": {
+          "sum": 339272.6,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 140073.11,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4261.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 138839.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 10714.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-05",
+      "m": {
+        "net_revenue": {
+          "sum": 358561.85,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 141387.58,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4929.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 156485.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 11269.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-06",
+      "m": {
+        "net_revenue": {
+          "sum": 397672.05,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 158542.64,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5196.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 169799.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 12554.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-07",
+      "m": {
+        "net_revenue": {
+          "sum": 361243.99,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 143251.68,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4747.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 152366.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 11636.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-08",
+      "m": {
+        "net_revenue": {
+          "sum": 393121.33,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 153525.91,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5191.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 160074.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 12240.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-09",
+      "m": {
+        "net_revenue": {
+          "sum": 376738.1,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 150705.85,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4733.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 160667.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 11486.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-10",
+      "m": {
+        "net_revenue": {
+          "sum": 395637.68,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 159680.39,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5224.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 174820.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 12238.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2024-09",
+      "m": {
+        "net_revenue": {
+          "sum": 273305.42,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 104454.93,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3762.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 117764.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 9270.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-07",
+      "m": {
+        "net_revenue": {
+          "sum": 310598.77,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 119015.53,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4516.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 138756.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 10672.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Beauty & Wellness",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2026-04",
+      "m": {
+        "net_revenue": {
+          "sum": 362222.36,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 143608.35,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4581.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 144544.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 11398.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2024-09",
+      "m": {
+        "net_revenue": {
+          "sum": 336016.49,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 86553.08,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3541.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 165246.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4415.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-02",
+      "m": {
+        "net_revenue": {
+          "sum": 316814.46,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 82563.64,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3316.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 144762.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4337.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2024-10",
+      "m": {
+        "net_revenue": {
+          "sum": 419649.69,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 116562.91,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4119.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 179565.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5549.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-01",
+      "m": {
+        "net_revenue": {
+          "sum": 286573.37,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 49368.84,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3690.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 150012.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4406.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-05",
+      "m": {
+        "net_revenue": {
+          "sum": 342634.77,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 82941.53,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3603.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 165022.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4606.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P2_HIGH",
+        "status": "On track"
+      },
+      "t": "2025-11",
+      "m": {
+        "net_revenue": {
+          "sum": 575528.8,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 83209.69,
+          "n": 1
+        },
+        "orders": {
+          "sum": 6669.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 291808.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8751.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P2_HIGH",
+        "status": "On track"
+      },
+      "t": "2026-01",
+      "m": {
+        "net_revenue": {
+          "sum": 349236.19,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 56289.31,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4171.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 167895.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5262.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2024-11",
+      "m": {
+        "net_revenue": {
+          "sum": 484344.34,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 70780.98,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5607.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 249637.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7290.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2024-12",
+      "m": {
+        "net_revenue": {
+          "sum": 527170.44,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 115663.72,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5779.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 257119.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7346.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-10",
+      "m": {
+        "net_revenue": {
+          "sum": 427919.16,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 99179.94,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4430.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 194162.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5740.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-12",
+      "m": {
+        "net_revenue": {
+          "sum": 587100.2,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 107765.01,
+          "n": 1
+        },
+        "orders": {
+          "sum": 6375.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 277345.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8498.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-02",
+      "m": {
+        "net_revenue": {
+          "sum": 367652.47,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 84487.42,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3982.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 166664.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5186.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-07",
+      "m": {
+        "net_revenue": {
+          "sum": 442706.59,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 97307.73,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4753.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 198054.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6086.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-03",
+      "m": {
+        "net_revenue": {
+          "sum": 378902.97,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 96553.93,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3954.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 164210.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5037.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-04",
+      "m": {
+        "net_revenue": {
+          "sum": 421896.12,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 101095.56,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4045.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 176991.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5625.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-06",
+      "m": {
+        "net_revenue": {
+          "sum": 351216.05,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 81283.49,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3715.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 159554.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4729.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-07",
+      "m": {
+        "net_revenue": {
+          "sum": 388563.2,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 83697.81,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4015.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 171599.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5376.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-08",
+      "m": {
+        "net_revenue": {
+          "sum": 442923.29,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 111104.11,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4561.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 196417.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5875.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-09",
+      "m": {
+        "net_revenue": {
+          "sum": 464093.59,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 125897.49,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4576.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 179929.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6148.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-03",
+      "m": {
+        "net_revenue": {
+          "sum": 468900.41,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 114808.69,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4681.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 189226.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6154.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-04",
+      "m": {
+        "net_revenue": {
+          "sum": 467670.24,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 107391.87,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4796.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 196987.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6346.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-05",
+      "m": {
+        "net_revenue": {
+          "sum": 471140.06,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 110171.3,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4352.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 185990.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6136.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-06",
+      "m": {
+        "net_revenue": {
+          "sum": 462480.99,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 113442.58,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4805.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 183362.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6198.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-08",
+      "m": {
+        "net_revenue": {
+          "sum": 511187.61,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 116848.98,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5314.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 223969.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6847.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-09",
+      "m": {
+        "net_revenue": {
+          "sum": 500824.84,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 114553.99,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5186.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 190796.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6670.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Footwear",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-10",
+      "m": {
+        "net_revenue": {
+          "sum": 583201.36,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 135070.07,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5847.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 214844.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7679.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-06",
+      "m": {
+        "net_revenue": {
+          "sum": 484571.43,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 134613.77,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5061.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 177893.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7360.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2024-09",
+      "m": {
+        "net_revenue": {
+          "sum": 451800.59,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 120266.46,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4938.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 170527.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7083.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-03",
+      "m": {
+        "net_revenue": {
+          "sum": 437633.32,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 114604.39,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4715.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 153628.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6834.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-04",
+      "m": {
+        "net_revenue": {
+          "sum": 497308.24,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 128210.97,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5337.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 170821.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7814.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-05",
+      "m": {
+        "net_revenue": {
+          "sum": 470468.95,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 129395.98,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4806.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 158213.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7309.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-07",
+      "m": {
+        "net_revenue": {
+          "sum": 481296.93,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 130191.84,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4902.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 161738.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7566.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-08",
+      "m": {
+        "net_revenue": {
+          "sum": 533150.47,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 147133.52,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5546.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 189491.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8150.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-01",
+      "m": {
+        "net_revenue": {
+          "sum": 386802.87,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 93073.55,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4350.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 157200.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6457.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-01",
+      "m": {
+        "net_revenue": {
+          "sum": 437395.02,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 116575.3,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4578.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 162136.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6930.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-02",
+      "m": {
+        "net_revenue": {
+          "sum": 357417.57,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 97069.49,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3716.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 159876.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5599.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-03",
+      "m": {
+        "net_revenue": {
+          "sum": 426245.52,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 116954.7,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4219.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 174535.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6590.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-04",
+      "m": {
+        "net_revenue": {
+          "sum": 445113.65,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 122055.58,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4663.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 195537.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6676.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-05",
+      "m": {
+        "net_revenue": {
+          "sum": 439719.36,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 120592.7,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4627.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 201770.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6648.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-06",
+      "m": {
+        "net_revenue": {
+          "sum": 433676.67,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 130297.61,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4216.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 181321.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6334.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-07",
+      "m": {
+        "net_revenue": {
+          "sum": 482786.07,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 119785.96,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4832.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 198213.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7622.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-08",
+      "m": {
+        "net_revenue": {
+          "sum": 434049.08,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 119563.51,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4387.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 189265.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6509.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-09",
+      "m": {
+        "net_revenue": {
+          "sum": 484785.55,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 136202.91,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4941.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 212729.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7196.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-10",
+      "m": {
+        "net_revenue": {
+          "sum": 530190.28,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 145534.53,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5525.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 216646.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7918.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-10",
+      "m": {
+        "net_revenue": {
+          "sum": 485862.65,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 126200.42,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5250.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 196458.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7726.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-12",
+      "m": {
+        "net_revenue": {
+          "sum": 712629.88,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 173647.62,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8063.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 281243.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 11949.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-02",
+      "m": {
+        "net_revenue": {
+          "sum": 365147.97,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 98167.92,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3979.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 143246.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6007.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-10",
+      "m": {
+        "net_revenue": {
+          "sum": 561920.17,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 148829.73,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5956.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 206372.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8601.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-12",
+      "m": {
+        "net_revenue": {
+          "sum": 804180.73,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 193465.87,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8531.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 314005.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 12876.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-09",
+      "m": {
+        "net_revenue": {
+          "sum": 542065.38,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 153179.22,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5201.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 184165.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8292.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Mid performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-11",
+      "m": {
+        "net_revenue": {
+          "sum": 620061.61,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 105684.87,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7496.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 257059.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 11085.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Home & Living",
+        "segment": "Mid performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-11",
+      "m": {
+        "net_revenue": {
+          "sum": 818262.25,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 152611.47,
+          "n": 1
+        },
+        "orders": {
+          "sum": 9157.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 303627.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 14185.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P1_URGENT",
+        "status": "At risk"
+      },
+      "t": "2025-01",
+      "m": {
+        "net_revenue": {
+          "sum": 118393.44,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 28717.46,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2043.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 69488.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4065.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2024-09",
+      "m": {
+        "net_revenue": {
+          "sum": 158644.76,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 46087.58,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2469.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 85494.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4907.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-10",
+      "m": {
+        "net_revenue": {
+          "sum": 158423.12,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 44838.19,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2512.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 90809.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4784.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "On track"
+      },
+      "t": "2026-01",
+      "m": {
+        "net_revenue": {
+          "sum": 143439.14,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 36825.91,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2270.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 75157.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4725.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-02",
+      "m": {
+        "net_revenue": {
+          "sum": 137566.39,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 39199.83,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2282.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 71331.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4413.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-02",
+      "m": {
+        "net_revenue": {
+          "sum": 137636.75,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 38720.39,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2118.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 68897.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4306.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-11",
+      "m": {
+        "net_revenue": {
+          "sum": 225615.44,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 45377.12,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3874.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 132811.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8023.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-05",
+      "m": {
+        "net_revenue": {
+          "sum": 156770.0,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 45110.56,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2490.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 83167.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4778.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-06",
+      "m": {
+        "net_revenue": {
+          "sum": 154431.45,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 42785.81,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2335.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 83358.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4760.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-09",
+      "m": {
+        "net_revenue": {
+          "sum": 161266.91,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 44458.0,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2535.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 79873.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4875.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-11",
+      "m": {
+        "net_revenue": {
+          "sum": 244655.14,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 51118.0,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4186.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 138485.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8370.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-12",
+      "m": {
+        "net_revenue": {
+          "sum": 354966.17,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 86510.86,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5832.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 207490.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 11481.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-05",
+      "m": {
+        "net_revenue": {
+          "sum": 163850.4,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 48707.94,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2402.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 84089.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4855.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-06",
+      "m": {
+        "net_revenue": {
+          "sum": 166859.14,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 47835.12,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2539.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 84233.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5031.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-07",
+      "m": {
+        "net_revenue": {
+          "sum": 136015.75,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 37398.35,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2085.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 66610.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4163.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-08",
+      "m": {
+        "net_revenue": {
+          "sum": 176756.09,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 50989.77,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2680.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 89103.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5122.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-10",
+      "m": {
+        "net_revenue": {
+          "sum": 175470.61,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 52378.26,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2592.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 86116.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5212.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2024-10",
+      "m": {
+        "net_revenue": {
+          "sum": 192608.19,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 56741.27,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2926.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 87233.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5952.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2024-12",
+      "m": {
+        "net_revenue": {
+          "sum": 377714.34,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 93530.56,
+          "n": 1
+        },
+        "orders": {
+          "sum": 6449.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 204748.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 12444.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-03",
+      "m": {
+        "net_revenue": {
+          "sum": 168180.06,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 48887.84,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2547.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 76738.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5179.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-04",
+      "m": {
+        "net_revenue": {
+          "sum": 163663.08,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 46145.06,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2418.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 77665.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4912.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-07",
+      "m": {
+        "net_revenue": {
+          "sum": 166100.88,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 47506.46,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2553.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 79470.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5264.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-08",
+      "m": {
+        "net_revenue": {
+          "sum": 199283.11,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 56888.13,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2952.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 87069.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6005.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2026-03",
+      "m": {
+        "net_revenue": {
+          "sum": 159683.28,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 45090.56,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2298.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 72787.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4767.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2026-04",
+      "m": {
+        "net_revenue": {
+          "sum": 161150.25,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 45513.45,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2325.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 79188.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4756.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kids & Toys",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2026-09",
+      "m": {
+        "net_revenue": {
+          "sum": 191087.31,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 58194.41,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2822.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 86055.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5738.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "On track"
+      },
+      "t": "2026-01",
+      "m": {
+        "net_revenue": {
+          "sum": 242543.98,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 64189.09,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2910.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 96464.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4865.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-09",
+      "m": {
+        "net_revenue": {
+          "sum": 233732.14,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 73201.82,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2790.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 100024.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4614.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-03",
+      "m": {
+        "net_revenue": {
+          "sum": 222635.13,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 65602.55,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2726.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 98737.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4335.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-04",
+      "m": {
+        "net_revenue": {
+          "sum": 251785.1,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 76120.9,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2863.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 102599.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4893.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-06",
+      "m": {
+        "net_revenue": {
+          "sum": 225456.46,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 69171.42,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2625.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 98778.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4315.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-07",
+      "m": {
+        "net_revenue": {
+          "sum": 242583.95,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 72020.2,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2925.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 107880.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4753.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-08",
+      "m": {
+        "net_revenue": {
+          "sum": 263464.37,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 80884.85,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3094.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 115088.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5029.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-10",
+      "m": {
+        "net_revenue": {
+          "sum": 295080.66,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 93538.21,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3322.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 119898.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5706.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-02",
+      "m": {
+        "net_revenue": {
+          "sum": 237677.98,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 66201.59,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2680.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 103047.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4586.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-07",
+      "m": {
+        "net_revenue": {
+          "sum": 288047.72,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 77853.39,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3281.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 120425.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5502.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-10",
+      "m": {
+        "net_revenue": {
+          "sum": 343516.15,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 96864.17,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3858.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 139859.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6523.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2024-12",
+      "m": {
+        "net_revenue": {
+          "sum": 479563.63,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 131537.99,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5989.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 202572.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 9991.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-02",
+      "m": {
+        "net_revenue": {
+          "sum": 216810.54,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 64785.46,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2522.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 83450.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4358.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-05",
+      "m": {
+        "net_revenue": {
+          "sum": 281771.79,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 92086.28,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3242.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 111806.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5352.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-09",
+      "m": {
+        "net_revenue": {
+          "sum": 307083.92,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 94773.09,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3640.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 113999.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5828.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-12",
+      "m": {
+        "net_revenue": {
+          "sum": 477611.54,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 128338.12,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5874.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 203236.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 9778.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2026-04",
+      "m": {
+        "net_revenue": {
+          "sum": 316688.39,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 91785.53,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3378.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 114996.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5947.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2026-08",
+      "m": {
+        "net_revenue": {
+          "sum": 320386.5,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 88159.28,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3501.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 121995.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6002.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2026-09",
+      "m": {
+        "net_revenue": {
+          "sum": 338623.55,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 98312.17,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3529.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 120833.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6406.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "Low performing",
+        "priority": "P1_URGENT",
+        "status": "At risk"
+      },
+      "t": "2025-01",
+      "m": {
+        "net_revenue": {
+          "sum": 182201.37,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 48865.19,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2333.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 88274.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 3949.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2024-10",
+      "m": {
+        "net_revenue": {
+          "sum": 242326.09,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 72102.81,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2887.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 109359.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4825.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-03",
+      "m": {
+        "net_revenue": {
+          "sum": 242324.92,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 64871.73,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2743.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 105550.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4541.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-06",
+      "m": {
+        "net_revenue": {
+          "sum": 258664.33,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 70017.46,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2904.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 114462.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4799.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-11",
+      "m": {
+        "net_revenue": {
+          "sum": 355012.19,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 70183.38,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4714.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 174118.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7974.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-11",
+      "m": {
+        "net_revenue": {
+          "sum": 408335.6,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 97453.09,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4984.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 190828.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8628.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Kitchen & Dining",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-05",
+      "m": {
+        "net_revenue": {
+          "sum": 274604.72,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 72776.17,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3176.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 123164.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5181.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P1_URGENT",
+        "status": "At risk"
+      },
+      "t": "2025-08",
+      "m": {
+        "net_revenue": {
+          "sum": 368249.5,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 99417.29,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3413.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 184314.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4886.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P1_URGENT",
+        "status": "At risk"
+      },
+      "t": "2026-05",
+      "m": {
+        "net_revenue": {
+          "sum": 441224.15,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 126821.39,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4195.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 246702.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5712.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P1_URGENT",
+        "status": "At risk"
+      },
+      "t": "2026-06",
+      "m": {
+        "net_revenue": {
+          "sum": 470477.35,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 124941.5,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4418.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 261674.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6176.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2024-09",
+      "m": {
+        "net_revenue": {
+          "sum": 303481.85,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 79117.33,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3127.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 161436.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4125.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-01",
+      "m": {
+        "net_revenue": {
+          "sum": 264791.36,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 67004.17,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2784.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 132414.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 3798.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-06",
+      "m": {
+        "net_revenue": {
+          "sum": 430388.68,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 115920.96,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4187.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 212968.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5803.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-01",
+      "m": {
+        "net_revenue": {
+          "sum": 324125.77,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 81678.37,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3225.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 156051.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4462.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2026-07",
+      "m": {
+        "net_revenue": {
+          "sum": 501110.91,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 127858.36,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4766.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 239080.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6722.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2024-10",
+      "m": {
+        "net_revenue": {
+          "sum": 328771.5,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 92576.71,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3247.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 154536.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4447.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-02",
+      "m": {
+        "net_revenue": {
+          "sum": 289600.92,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 80639.15,
+          "n": 1
+        },
+        "orders": {
+          "sum": 2846.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 137369.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4132.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-03",
+      "m": {
+        "net_revenue": {
+          "sum": 333504.36,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 98636.25,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3015.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 143010.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 4406.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-10",
+      "m": {
+        "net_revenue": {
+          "sum": 416006.86,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 113392.79,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4139.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 197698.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5632.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-08",
+      "m": {
+        "net_revenue": {
+          "sum": 497151.53,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 135039.29,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4793.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 233977.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6512.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-09",
+      "m": {
+        "net_revenue": {
+          "sum": 489394.01,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 139615.27,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4404.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 217075.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6181.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-10",
+      "m": {
+        "net_revenue": {
+          "sum": 547091.66,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 150579.35,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5306.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 251052.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7057.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-07",
+      "m": {
+        "net_revenue": {
+          "sum": 502386.06,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 133760.45,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4773.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 210148.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6927.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-09",
+      "m": {
+        "net_revenue": {
+          "sum": 421726.83,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 111048.71,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3991.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 184104.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5629.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2025-12",
+      "m": {
+        "net_revenue": {
+          "sum": 587859.6,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 137703.96,
+          "n": 1
+        },
+        "orders": {
+          "sum": 6049.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 276492.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8257.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-02",
+      "m": {
+        "net_revenue": {
+          "sum": 389104.2,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 110812.85,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3803.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 172887.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5271.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-03",
+      "m": {
+        "net_revenue": {
+          "sum": 446712.66,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 123282.58,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3990.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 190166.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5743.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-04",
+      "m": {
+        "net_revenue": {
+          "sum": 503625.69,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 141567.03,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4382.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 198477.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6484.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-04",
+      "m": {
+        "net_revenue": {
+          "sum": 373085.79,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 93279.44,
+          "n": 1
+        },
+        "orders": {
+          "sum": 3537.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 177804.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 5007.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Low performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-05",
+      "m": {
+        "net_revenue": {
+          "sum": 461883.88,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 135845.22,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4183.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 199786.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6095.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2024-11",
+      "m": {
+        "net_revenue": {
+          "sum": 410282.88,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 67422.58,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4713.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 218007.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6385.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-11",
+      "m": {
+        "net_revenue": {
+          "sum": 490037.73,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 91213.15,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5284.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 257925.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7406.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Outdoor & Travel",
+        "segment": "Mid performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2024-12",
+      "m": {
+        "net_revenue": {
+          "sum": 509524.18,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 117943.59,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5461.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 240832.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7458.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "At risk"
+      },
+      "t": "2025-01",
+      "m": {
+        "net_revenue": {
+          "sum": 248213.85,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 72609.3,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4362.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 173920.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6938.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P2_HIGH",
+        "status": "On track"
+      },
+      "t": "2026-01",
+      "m": {
+        "net_revenue": {
+          "sum": 277328.95,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 86343.1,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4509.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 173018.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7362.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2025-02",
+      "m": {
+        "net_revenue": {
+          "sum": 252861.99,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 80053.47,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4062.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 161570.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6746.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-03",
+      "m": {
+        "net_revenue": {
+          "sum": 271261.41,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 99287.11,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4073.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 173757.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6163.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-04",
+      "m": {
+        "net_revenue": {
+          "sum": 301104.9,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 106325.1,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4448.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 192494.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7095.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-09",
+      "m": {
+        "net_revenue": {
+          "sum": 330314.32,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 124743.44,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4658.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 202590.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7326.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-02",
+      "m": {
+        "net_revenue": {
+          "sum": 258051.5,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 83352.66,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4255.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 161449.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6828.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-05",
+      "m": {
+        "net_revenue": {
+          "sum": 347666.87,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 127509.45,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4836.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 206303.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7813.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-06",
+      "m": {
+        "net_revenue": {
+          "sum": 328993.11,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 122580.5,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4543.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 195006.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7493.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P3_MEDIUM",
+        "status": "On track"
+      },
+      "t": "2026-10",
+      "m": {
+        "net_revenue": {
+          "sum": 364934.13,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 135361.6,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5005.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 219097.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8178.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-03",
+      "m": {
+        "net_revenue": {
+          "sum": 266206.84,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 87019.68,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4138.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 177272.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6646.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-08",
+      "m": {
+        "net_revenue": {
+          "sum": 313970.95,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 100672.49,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5001.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 210947.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8022.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-09",
+      "m": {
+        "net_revenue": {
+          "sum": 308540.11,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 101364.47,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4707.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 189977.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7677.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2026-08",
+      "m": {
+        "net_revenue": {
+          "sum": 319917.67,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 122305.47,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4352.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 190511.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7235.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2024-09",
+      "m": {
+        "net_revenue": {
+          "sum": 312649.45,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 99932.92,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4930.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 186086.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8059.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2024-10",
+      "m": {
+        "net_revenue": {
+          "sum": 324912.75,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 107361.71,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5281.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 203369.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8512.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-04",
+      "m": {
+        "net_revenue": {
+          "sum": 319826.76,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 102831.72,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5032.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 192883.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8237.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-05",
+      "m": {
+        "net_revenue": {
+          "sum": 317265.96,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 106441.14,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4801.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 191066.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8039.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-06",
+      "m": {
+        "net_revenue": {
+          "sum": 332594.01,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 105275.07,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5370.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 201154.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8518.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-07",
+      "m": {
+        "net_revenue": {
+          "sum": 289077.57,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 92769.1,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4672.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 183566.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 7571.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "High performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-10",
+      "m": {
+        "net_revenue": {
+          "sum": 351466.53,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 116998.67,
+          "n": 1
+        },
+        "orders": {
+          "sum": 5554.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 220495.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 8932.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "Low performing",
+        "priority": "P3_MEDIUM",
+        "status": "At risk"
+      },
+      "t": "2026-07",
+      "m": {
+        "net_revenue": {
+          "sum": 291506.41,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 103970.02,
+          "n": 1
+        },
+        "orders": {
+          "sum": 4213.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 186578.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 6810.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "Mid performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2024-12",
+      "m": {
+        "net_revenue": {
+          "sum": 470991.87,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 129431.25,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8195.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 335682.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 12877.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "Mid performing",
+        "priority": "P4_ROUTINE",
+        "status": "At risk"
+      },
+      "t": "2025-12",
+      "m": {
+        "net_revenue": {
+          "sum": 449369.68,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 129058.7,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7667.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 327419.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 12162.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 1.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "Mid performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2024-11",
+      "m": {
+        "net_revenue": {
+          "sum": 476723.67,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 120968.55,
+          "n": 1
+        },
+        "orders": {
+          "sum": 7907.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 312003.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 13804.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    },
+    {
+      "d": {
+        "category": "Tech Accessories",
+        "segment": "Mid performing",
+        "priority": "P4_ROUTINE",
+        "status": "On track"
+      },
+      "t": "2025-11",
+      "m": {
+        "net_revenue": {
+          "sum": 537378.94,
+          "n": 1
+        },
+        "contribution": {
+          "sum": 132515.62,
+          "n": 1
+        },
+        "orders": {
+          "sum": 8603.0,
+          "n": 1
+        },
+        "sessions": {
+          "sum": 328361.0,
+          "n": 1
+        },
+        "units": {
+          "sum": 15011.0,
+          "n": 1
+        },
+        "at_risk": {
+          "sum": 0.0,
+          "n": 1
+        }
+      }
+    }
+  ]
+}

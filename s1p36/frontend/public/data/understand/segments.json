@@ -1,0 +1,41 @@
+{
+  "method": "KMeans with three clusters on standardised performance measures",
+  "items": [
+    {
+      "name": "High performing",
+      "size": 99,
+      "share": 47.6,
+      "description": "Category-months grouped by traffic, funnel, pricing, returns, order value, margin and health score.",
+      "summary": {
+        "Average net revenue": 293046.8,
+        "Average health score": 63.1,
+        "Contribution margin (%)": 32.45,
+        "At-risk rate (%)": 58.59
+      }
+    },
+    {
+      "name": "Low performing",
+      "size": 51,
+      "share": 24.52,
+      "description": "Category-months grouped by traffic, funnel, pricing, returns, order value, margin and health score.",
+      "summary": {
+        "Average net revenue": 418611.76,
+        "Average health score": 36.99,
+        "Contribution margin (%)": 26.78,
+        "At-risk rate (%)": 82.35
+      }
+    },
+    {
+      "name": "Mid performing",
+      "size": 58,
+      "share": 27.88,
+      "description": "Category-months grouped by traffic, funnel, pricing, returns, order value, margin and health score.",
+      "summary": {
+        "Average net revenue": 571542.9,
+        "Average health score": 39.61,
+        "Contribution margin (%)": 21.83,
+        "At-risk rate (%)": 41.38
+      }
+    }
+  ]
+}

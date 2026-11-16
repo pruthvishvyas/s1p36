@@ -1,0 +1,24 @@
+{
+  "method": "Gradient Boosting on next-month change",
+  "model": "Gradient Boosting",
+  "horizon": "1 month",
+  "mae": 22777.146400474125,
+  "mape": 5.267106710385542,
+  "baseline_mae": 31981.026666666672,
+  "baseline_mape": 7.674414588038624,
+  "beats_baseline": true,
+  "holdout_months": [
+    "2026-08",
+    "2026-09",
+    "2026-10"
+  ],
+  "train_rows": 176,
+  "months_of_history": 26,
+  "low_sample": false,
+  "next_month": "2026-11",
+  "unit": "net revenue per category-month",
+  "seasonal_naive_available": true,
+  "total_forecast": 4387190.955603644,
+  "total_low": 3948473.737496687,
+  "total_high": 5020956.14932514
+}

@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "key": "revenue_target",
+      "label": "Net revenue vs target (monthly target column in the data)",
+      "target": 3811126.57,
+      "actual": 3739969.6100000003,
+      "unit": "currency",
+      "pct": 98.13291532849829,
+      "status": "at_risk"
+    },
+    {
+      "key": "alert_drop_pct",
+      "label": "Month-on-month revenue change (alert at -20.0%)",
+      "target": -20.0,
+      "actual": 7.994748109198015,
+      "unit": "percent",
+      "pct": 100.0,
+      "status": "on_track"
+    }
+  ]
+}

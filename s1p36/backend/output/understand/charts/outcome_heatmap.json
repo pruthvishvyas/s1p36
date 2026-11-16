@@ -1,0 +1,1051 @@
+{
+  "id": "outcome_heatmap",
+  "title": "At-risk rate by category and month",
+  "type": "heatmap",
+  "question": "Is the problem concentrated in particular months?",
+  "x_label": "Month",
+  "y_label": "Category",
+  "data": [
+    {
+      "row": "Apparel",
+      "col": "2024-09",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2024-10",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2024-11",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2024-12",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-01",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-02",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-03",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-04",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-05",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-06",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-07",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-08",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-09",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-10",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-11",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2025-12",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-01",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-02",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-03",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-04",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-05",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-06",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-07",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-08",
+      "value": 0.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-09",
+      "value": 100.0
+    },
+    {
+      "row": "Apparel",
+      "col": "2026-10",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2024-09",
+      "value": 0.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2024-10",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2024-11",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2024-12",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-01",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-02",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-03",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-04",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-05",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-06",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-07",
+      "value": 0.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-08",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-09",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-10",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-11",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2025-12",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-01",
+      "value": 0.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-02",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-03",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-04",
+      "value": 0.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-05",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-06",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-07",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-08",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-09",
+      "value": 100.0
+    },
+    {
+      "row": "Beauty & Wellness",
+      "col": "2026-10",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2024-09",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2024-10",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2024-11",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2024-12",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-01",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-02",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-03",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-04",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-05",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-06",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-07",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-08",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-09",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-10",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-11",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2025-12",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-01",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-02",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-03",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-04",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-05",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-06",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-07",
+      "value": 100.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-08",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-09",
+      "value": 0.0
+    },
+    {
+      "row": "Footwear",
+      "col": "2026-10",
+      "value": 0.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2024-09",
+      "value": 0.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2024-10",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2024-11",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2024-12",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-01",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-02",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-03",
+      "value": 0.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-04",
+      "value": 0.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-05",
+      "value": 0.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-06",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-07",
+      "value": 0.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-08",
+      "value": 0.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-09",
+      "value": 0.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-10",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-11",
+      "value": 0.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2025-12",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-01",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-02",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-03",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-04",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-05",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-06",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-07",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-08",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-09",
+      "value": 100.0
+    },
+    {
+      "row": "Home & Living",
+      "col": "2026-10",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2024-09",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2024-10",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2024-11",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2024-12",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-01",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-02",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-03",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-04",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-05",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-06",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-07",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-08",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-09",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-10",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-11",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2025-12",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-01",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-02",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-03",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-04",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-05",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-06",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-07",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-08",
+      "value": 100.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-09",
+      "value": 0.0
+    },
+    {
+      "row": "Kids & Toys",
+      "col": "2026-10",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2024-09",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2024-10",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2024-11",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2024-12",
+      "value": 0.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-01",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-02",
+      "value": 0.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-03",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-04",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-05",
+      "value": 0.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-06",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-07",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-08",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-09",
+      "value": 0.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-10",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-11",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2025-12",
+      "value": 0.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-01",
+      "value": 0.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-02",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-03",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-04",
+      "value": 0.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-05",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-06",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-07",
+      "value": 100.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-08",
+      "value": 0.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-09",
+      "value": 0.0
+    },
+    {
+      "row": "Kitchen & Dining",
+      "col": "2026-10",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2024-09",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2024-10",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2024-11",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2024-12",
+      "value": 0.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-01",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-02",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-03",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-04",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-05",
+      "value": 0.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-06",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-07",
+      "value": 0.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-08",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-09",
+      "value": 0.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-10",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-11",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2025-12",
+      "value": 0.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-01",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-02",
+      "value": 0.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-03",
+      "value": 0.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-04",
+      "value": 0.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-05",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-06",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-07",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-08",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-09",
+      "value": 100.0
+    },
+    {
+      "row": "Outdoor & Travel",
+      "col": "2026-10",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2024-09",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2024-10",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2024-11",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2024-12",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-01",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-02",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-03",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-04",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-05",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-06",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-07",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-08",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-09",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-10",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-11",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2025-12",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-01",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-02",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-03",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-04",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-05",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-06",
+      "value": 0.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-07",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-08",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-09",
+      "value": 100.0
+    },
+    {
+      "row": "Tech Accessories",
+      "col": "2026-10",
+      "value": 0.0
+    }
+  ],
+  "outcome": "monitor"
+}

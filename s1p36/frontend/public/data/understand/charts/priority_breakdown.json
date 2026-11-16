@@ -1,0 +1,27 @@
+{
+  "id": "priority_breakdown",
+  "title": "Category-months by priority",
+  "type": "bar",
+  "question": "How much needs attention now?",
+  "x_label": "Priority",
+  "y_label": "Category-months",
+  "data": [
+    {
+      "label": "P4_ROUTINE",
+      "value": 94
+    },
+    {
+      "label": "P3_MEDIUM",
+      "value": 70
+    },
+    {
+      "label": "P2_HIGH",
+      "value": 37
+    },
+    {
+      "label": "P1_URGENT",
+      "value": 7
+    }
+  ],
+  "outcome": "decide"
+}

@@ -1,0 +1,209 @@
+row_id,alerts,priority,recommendations,is_latest
+0,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+1,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+2,HEAVY_DISCOUNT|HIGH_RETURNS,P2_HIGH,Shorten promotions and cap discount depth; Review product pages and sizing guidance,0
+3,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+4,REVENUE_DROP|BELOW_TARGET|HIGH_RETURNS,P1_URGENT,Check traffic sources and pricing for the drop; Add promotion or traffic budget to close the target gap; Review product pages and sizing guidance,0
+5,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+6,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+7,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+8,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+9,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+10,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+11,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+12,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+13,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+14,HEAVY_DISCOUNT|HIGH_RETURNS,P2_HIGH,Shorten promotions and cap discount depth; Review product pages and sizing guidance,0
+15,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+16,REVENUE_DROP|HEAVY_DISCOUNT|HIGH_RETURNS,P1_URGENT,Check traffic sources and pricing for the drop; Shorten promotions and cap discount depth; Review product pages and sizing guidance,0
+17,BELOW_TARGET|HIGH_RETURNS,P2_HIGH,Add promotion or traffic budget to close the target gap; Review product pages and sizing guidance,0
+18,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+19,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+20,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+21,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+22,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+23,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+24,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+25,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,1
+26,NORMAL,P4_ROUTINE,Keep current plan,0
+27,NORMAL,P4_ROUTINE,Keep current plan,0
+28,NORMAL,P4_ROUTINE,Keep current plan,0
+29,NORMAL,P4_ROUTINE,Keep current plan,0
+30,REVENUE_DROP,P2_HIGH,Check traffic sources and pricing for the drop,0
+31,BELOW_TARGET,P2_HIGH,Add promotion or traffic budget to close the target gap,0
+32,NORMAL,P4_ROUTINE,Keep current plan,0
+33,NORMAL,P4_ROUTINE,Keep current plan,0
+34,NORMAL,P4_ROUTINE,Keep current plan,0
+35,NORMAL,P4_ROUTINE,Keep current plan,0
+36,NORMAL,P4_ROUTINE,Keep current plan,0
+37,NORMAL,P4_ROUTINE,Keep current plan,0
+38,BELOW_TARGET,P2_HIGH,Add promotion or traffic budget to close the target gap,0
+39,NORMAL,P4_ROUTINE,Keep current plan,0
+40,BELOW_TARGET,P2_HIGH,Add promotion or traffic budget to close the target gap,0
+41,NORMAL,P4_ROUTINE,Keep current plan,0
+42,REVENUE_DROP,P2_HIGH,Check traffic sources and pricing for the drop,0
+43,NORMAL,P4_ROUTINE,Keep current plan,0
+44,NORMAL,P4_ROUTINE,Keep current plan,0
+45,NORMAL,P4_ROUTINE,Keep current plan,0
+46,NORMAL,P4_ROUTINE,Keep current plan,0
+47,NORMAL,P4_ROUTINE,Keep current plan,0
+48,NORMAL,P4_ROUTINE,Keep current plan,0
+49,NORMAL,P4_ROUTINE,Keep current plan,0
+50,NORMAL,P4_ROUTINE,Keep current plan,0
+51,NORMAL,P4_ROUTINE,Keep current plan,1
+52,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+53,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+54,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+55,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+56,REVENUE_DROP|HIGH_RETURNS,P2_HIGH,Check traffic sources and pricing for the drop; Review product pages and sizing guidance,0
+57,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+58,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+59,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+60,BELOW_TARGET|HIGH_RETURNS,P2_HIGH,Add promotion or traffic budget to close the target gap; Review product pages and sizing guidance,0
+61,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+62,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+63,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+64,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+65,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+66,HEAVY_DISCOUNT|HIGH_RETURNS,P2_HIGH,Shorten promotions and cap discount depth; Review product pages and sizing guidance,0
+67,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+68,REVENUE_DROP|HIGH_RETURNS,P2_HIGH,Check traffic sources and pricing for the drop; Review product pages and sizing guidance,0
+69,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+70,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+71,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+72,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+73,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+74,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+75,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+76,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+77,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,1
+78,NORMAL,P4_ROUTINE,Keep current plan,0
+79,NORMAL,P4_ROUTINE,Keep current plan,0
+80,NORMAL,P4_ROUTINE,Keep current plan,0
+81,NORMAL,P4_ROUTINE,Keep current plan,0
+82,REVENUE_DROP,P2_HIGH,Check traffic sources and pricing for the drop,0
+83,NORMAL,P4_ROUTINE,Keep current plan,0
+84,NORMAL,P4_ROUTINE,Keep current plan,0
+85,NORMAL,P4_ROUTINE,Keep current plan,0
+86,NORMAL,P4_ROUTINE,Keep current plan,0
+87,NORMAL,P4_ROUTINE,Keep current plan,0
+88,NORMAL,P4_ROUTINE,Keep current plan,0
+89,NORMAL,P4_ROUTINE,Keep current plan,0
+90,NORMAL,P4_ROUTINE,Keep current plan,0
+91,NORMAL,P4_ROUTINE,Keep current plan,0
+92,NORMAL,P4_ROUTINE,Keep current plan,0
+93,NORMAL,P4_ROUTINE,Keep current plan,0
+94,REVENUE_DROP,P2_HIGH,Check traffic sources and pricing for the drop,0
+95,BELOW_TARGET|PRICE_ABOVE_MARKET,P2_HIGH,Add promotion or traffic budget to close the target gap; Review price against competitors,0
+96,BELOW_TARGET|PRICE_ABOVE_MARKET,P2_HIGH,Add promotion or traffic budget to close the target gap; Review price against competitors,0
+97,BELOW_TARGET|PRICE_ABOVE_MARKET,P2_HIGH,Add promotion or traffic budget to close the target gap; Review price against competitors,0
+98,BELOW_TARGET|PRICE_ABOVE_MARKET,P2_HIGH,Add promotion or traffic budget to close the target gap; Review price against competitors,0
+99,BELOW_TARGET|PRICE_ABOVE_MARKET,P2_HIGH,Add promotion or traffic budget to close the target gap; Review price against competitors,0
+100,BELOW_TARGET|PRICE_ABOVE_MARKET,P2_HIGH,Add promotion or traffic budget to close the target gap; Review price against competitors,0
+101,BELOW_TARGET|PRICE_ABOVE_MARKET,P2_HIGH,Add promotion or traffic budget to close the target gap; Review price against competitors,0
+102,BELOW_TARGET|PRICE_ABOVE_MARKET,P2_HIGH,Add promotion or traffic budget to close the target gap; Review price against competitors,0
+103,BELOW_TARGET|PRICE_ABOVE_MARKET,P2_HIGH,Add promotion or traffic budget to close the target gap; Review price against competitors,1
+104,BELOW_TARGET,P2_HIGH,Add promotion or traffic budget to close the target gap,0
+105,NORMAL,P4_ROUTINE,Keep current plan,0
+106,NORMAL,P4_ROUTINE,Keep current plan,0
+107,NORMAL,P4_ROUTINE,Keep current plan,0
+108,REVENUE_DROP|BELOW_TARGET,P1_URGENT,Check traffic sources and pricing for the drop; Add promotion or traffic budget to close the target gap,0
+109,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+110,NORMAL,P4_ROUTINE,Keep current plan,0
+111,NORMAL,P4_ROUTINE,Keep current plan,0
+112,NORMAL,P4_ROUTINE,Keep current plan,0
+113,NORMAL,P4_ROUTINE,Keep current plan,0
+114,NORMAL,P4_ROUTINE,Keep current plan,0
+115,NORMAL,P4_ROUTINE,Keep current plan,0
+116,NORMAL,P4_ROUTINE,Keep current plan,0
+117,BELOW_TARGET,P2_HIGH,Add promotion or traffic budget to close the target gap,0
+118,NORMAL,P4_ROUTINE,Keep current plan,0
+119,NORMAL,P4_ROUTINE,Keep current plan,0
+120,REVENUE_DROP,P2_HIGH,Check traffic sources and pricing for the drop,0
+121,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+122,NORMAL,P4_ROUTINE,Keep current plan,0
+123,NORMAL,P4_ROUTINE,Keep current plan,0
+124,NORMAL,P4_ROUTINE,Keep current plan,0
+125,NORMAL,P4_ROUTINE,Keep current plan,0
+126,NORMAL,P4_ROUTINE,Keep current plan,0
+127,NORMAL,P4_ROUTINE,Keep current plan,0
+128,NORMAL,P4_ROUTINE,Keep current plan,0
+129,NORMAL,P4_ROUTINE,Keep current plan,1
+130,NORMAL,P4_ROUTINE,Keep current plan,0
+131,BELOW_TARGET,P2_HIGH,Add promotion or traffic budget to close the target gap,0
+132,NORMAL,P4_ROUTINE,Keep current plan,0
+133,NORMAL,P4_ROUTINE,Keep current plan,0
+134,REVENUE_DROP|BELOW_TARGET,P1_URGENT,Check traffic sources and pricing for the drop; Add promotion or traffic budget to close the target gap,0
+135,NORMAL,P4_ROUTINE,Keep current plan,0
+136,NORMAL,P4_ROUTINE,Keep current plan,0
+137,NORMAL,P4_ROUTINE,Keep current plan,0
+138,NORMAL,P4_ROUTINE,Keep current plan,0
+139,NORMAL,P4_ROUTINE,Keep current plan,0
+140,NORMAL,P4_ROUTINE,Keep current plan,0
+141,NORMAL,P4_ROUTINE,Keep current plan,0
+142,NORMAL,P4_ROUTINE,Keep current plan,0
+143,NORMAL,P4_ROUTINE,Keep current plan,0
+144,NORMAL,P4_ROUTINE,Keep current plan,0
+145,NORMAL,P4_ROUTINE,Keep current plan,0
+146,REVENUE_DROP,P2_HIGH,Check traffic sources and pricing for the drop,0
+147,NORMAL,P4_ROUTINE,Keep current plan,0
+148,BELOW_TARGET,P2_HIGH,Add promotion or traffic budget to close the target gap,0
+149,NORMAL,P4_ROUTINE,Keep current plan,0
+150,NORMAL,P4_ROUTINE,Keep current plan,0
+151,BELOW_TARGET,P2_HIGH,Add promotion or traffic budget to close the target gap,0
+152,NORMAL,P4_ROUTINE,Keep current plan,0
+153,NORMAL,P4_ROUTINE,Keep current plan,0
+154,NORMAL,P4_ROUTINE,Keep current plan,0
+155,NORMAL,P4_ROUTINE,Keep current plan,1
+156,BELOW_TARGET|HIGH_RETURNS,P2_HIGH,Add promotion or traffic budget to close the target gap; Review product pages and sizing guidance,0
+157,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+158,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+159,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+160,REVENUE_DROP|HIGH_RETURNS,P2_HIGH,Check traffic sources and pricing for the drop; Review product pages and sizing guidance,0
+161,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+162,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+163,NORMAL,P4_ROUTINE,Keep current plan,0
+164,NORMAL,P4_ROUTINE,Keep current plan,0
+165,BELOW_TARGET|HIGH_RETURNS,P2_HIGH,Add promotion or traffic budget to close the target gap; Review product pages and sizing guidance,0
+166,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+167,REVENUE_DROP|BELOW_TARGET|HIGH_RETURNS,P1_URGENT,Check traffic sources and pricing for the drop; Add promotion or traffic budget to close the target gap; Review product pages and sizing guidance,0
+168,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+169,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+170,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+171,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+172,REVENUE_DROP|HIGH_RETURNS,P2_HIGH,Check traffic sources and pricing for the drop; Review product pages and sizing guidance,0
+173,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+174,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+175,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+176,BELOW_TARGET|STOCKOUT|HIGH_RETURNS,P1_URGENT,Add promotion or traffic budget to close the target gap; Reorder now to avoid more stockout days; Review product pages and sizing guidance,0
+177,BELOW_TARGET|STOCKOUT|HIGH_RETURNS,P1_URGENT,Add promotion or traffic budget to close the target gap; Reorder now to avoid more stockout days; Review product pages and sizing guidance,0
+178,BELOW_TARGET,P2_HIGH,Add promotion or traffic budget to close the target gap,0
+179,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+180,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+181,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,1
+182,NORMAL,P4_ROUTINE,Keep current plan,0
+183,NORMAL,P4_ROUTINE,Keep current plan,0
+184,NORMAL,P4_ROUTINE,Keep current plan,0
+185,NORMAL,P4_ROUTINE,Keep current plan,0
+186,REVENUE_DROP|HIGH_RETURNS,P2_HIGH,Check traffic sources and pricing for the drop; Review product pages and sizing guidance,0
+187,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+188,NORMAL,P4_ROUTINE,Keep current plan,0
+189,NORMAL,P4_ROUTINE,Keep current plan,0
+190,NORMAL,P4_ROUTINE,Keep current plan,0
+191,NORMAL,P4_ROUTINE,Keep current plan,0
+192,NORMAL,P4_ROUTINE,Keep current plan,0
+193,NORMAL,P4_ROUTINE,Keep current plan,0
+194,NORMAL,P4_ROUTINE,Keep current plan,0
+195,NORMAL,P4_ROUTINE,Keep current plan,0
+196,NORMAL,P4_ROUTINE,Keep current plan,0
+197,NORMAL,P4_ROUTINE,Keep current plan,0
+198,REVENUE_DROP,P2_HIGH,Check traffic sources and pricing for the drop,0
+199,HIGH_RETURNS,P3_MEDIUM,Review product pages and sizing guidance,0
+200,PRICE_ABOVE_MARKET,P3_MEDIUM,Review price against competitors,0
+201,PRICE_ABOVE_MARKET,P3_MEDIUM,Review price against competitors,0
+202,PRICE_ABOVE_MARKET,P3_MEDIUM,Review price against competitors,0
+203,PRICE_ABOVE_MARKET,P3_MEDIUM,Review price against competitors,0
+204,PRICE_ABOVE_MARKET,P3_MEDIUM,Review price against competitors,0
+205,NORMAL,P4_ROUTINE,Keep current plan,0
+206,PRICE_ABOVE_MARKET,P3_MEDIUM,Review price against competitors,0
+207,PRICE_ABOVE_MARKET,P3_MEDIUM,Review price against competitors,1

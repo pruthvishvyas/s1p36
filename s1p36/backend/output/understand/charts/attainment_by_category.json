@@ -1,0 +1,43 @@
+{
+  "id": "attainment_by_category",
+  "title": "Target attainment by category",
+  "type": "bar",
+  "question": "Which categories fall short of their revenue target?",
+  "x_label": "Category",
+  "y_label": "Net revenue as % of target",
+  "data": [
+    {
+      "label": "Home & Living",
+      "value": 92.99
+    },
+    {
+      "label": "Beauty & Wellness",
+      "value": 96.25
+    },
+    {
+      "label": "Outdoor & Travel",
+      "value": 96.42
+    },
+    {
+      "label": "Kitchen & Dining",
+      "value": 98.29
+    },
+    {
+      "label": "Kids & Toys",
+      "value": 99.37
+    },
+    {
+      "label": "Tech Accessories",
+      "value": 101.18
+    },
+    {
+      "label": "Apparel",
+      "value": 101.22
+    },
+    {
+      "label": "Footwear",
+      "value": 101.58
+    }
+  ],
+  "outcome": "understand"
+}

@@ -1,0 +1,209 @@
+row_id,segment,is_anomaly,anomaly_score,anomaly_metric,anomaly_value,anomaly_expected,anomaly_reason
+0,Mid performing,0,0.45511432554480863,Checkout_Completion_Rate,0.5451,0.5859000000000001,Checkout_Completion_Rate is well below the usual level for Apparel
+1,Mid performing,0,0.45421452432017984,Checkout_Completion_Rate,0.5532,0.5859000000000001,Checkout_Completion_Rate is well below the usual level for Apparel
+2,Mid performing,1,0.5921953460066249,Sessions,509320.0,331072.0,Sessions is well above the usual level for Apparel
+3,Mid performing,1,0.5596186277102053,Sessions,505315.0,331072.0,Sessions is well above the usual level for Apparel
+4,Mid performing,1,0.5639300627409157,health_score,13.4375,39.73557692307693,health_score is well below the usual level for Apparel
+5,Mid performing,0,0.4995987227601595,Checkout_Completion_Rate,0.5433,0.5859000000000001,Checkout_Completion_Rate is well below the usual level for Apparel
+6,Mid performing,0,0.4531434453683409,Checkout_Completion_Rate,0.5433,0.5859000000000001,Checkout_Completion_Rate is well below the usual level for Apparel
+7,Mid performing,0,0.44875521972054344,Checkout_Completion_Rate,0.5548,0.5859000000000001,Checkout_Completion_Rate is well below the usual level for Apparel
+8,Mid performing,0,0.45101294411279935,health_score,54.92788461538461,39.73557692307693,health_score is well above the usual level for Apparel
+9,Mid performing,0,0.4520194511871992,health_score,52.69230769230769,39.73557692307693,health_score is well above the usual level for Apparel
+10,Mid performing,0,0.4518655989391972,health_score,52.13942307692307,39.73557692307693,health_score is well above the usual level for Apparel
+11,Mid performing,0,0.47413355089384185,health_score,22.8125,39.73557692307693,health_score is well below the usual level for Apparel
+12,Mid performing,0,0.4822946230127783,Checkout_Completion_Rate,0.615,0.5859000000000001,Checkout_Completion_Rate is well above the usual level for Apparel
+13,Mid performing,0,0.5090329292154179,health_score,56.00961538461539,39.73557692307693,health_score is well above the usual level for Apparel
+14,Mid performing,1,0.6556426180877077,Discount_Depth_Pct,0.2889,0.1887,Discount_Depth_Pct is well above the usual level for Apparel
+15,Mid performing,1,0.551436096696661,Sessions,530485.0,331072.0,Sessions is well above the usual level for Apparel
+16,Mid performing,1,0.6002249793302875,Discount_Depth_Pct,0.2642,0.1887,Discount_Depth_Pct is well above the usual level for Apparel
+17,Mid performing,1,0.5443471826985904,Checkout_Completion_Rate,0.6221,0.5859000000000001,Checkout_Completion_Rate is well above the usual level for Apparel
+18,Mid performing,0,0.46920015859011727,Checkout_Completion_Rate,0.6077,0.5859000000000001,Checkout_Completion_Rate is well above the usual level for Apparel
+19,Mid performing,0,0.47261679555273817,Checkout_Completion_Rate,0.603,0.5859000000000001,Checkout_Completion_Rate is well above the usual level for Apparel
+20,Mid performing,0,0.4693729349732688,health_score,31.17788461538461,39.73557692307693,health_score is well below the usual level for Apparel
+21,Mid performing,0,0.4657752669062683,Checkout_Completion_Rate,0.6004,0.5859000000000001,Checkout_Completion_Rate is well above the usual level for Apparel
+22,Mid performing,0,0.5065768712237921,Discount_Depth_Pct,0.2273,0.1887,Discount_Depth_Pct is well above the usual level for Apparel
+23,Mid performing,0,0.5084964363178208,Checkout_Completion_Rate,0.615,0.5859000000000001,Checkout_Completion_Rate is well above the usual level for Apparel
+24,Mid performing,0,0.4832324326650746,Checkout_Completion_Rate,0.6062,0.5859000000000001,Checkout_Completion_Rate is well above the usual level for Apparel
+25,Mid performing,1,0.526924828619902,Checkout_Completion_Rate,0.6226,0.5859000000000001,Checkout_Completion_Rate is well above the usual level for Apparel
+26,High performing,0,0.45563936309541775,health_score,82.6201923076923,69.66346153846152,health_score is well above the usual level for Beauty & Wellness
+27,High performing,0,0.4497268903099403,health_score,77.09134615384615,69.66346153846152,health_score is well above the usual level for Beauty & Wellness
+28,High performing,0,0.49183643485724227,Discount_Depth_Pct,0.1732,0.06470000000000001,Discount_Depth_Pct is well above the usual level for Beauty & Wellness
+29,High performing,0,0.4924226468420465,Discount_Depth_Pct,0.122,0.06470000000000001,Discount_Depth_Pct is well above the usual level for Beauty & Wellness
+30,High performing,0,0.4791324913523403,Conversion_Rate,0.03338,0.031275,Conversion_Rate is well above the usual level for Beauty & Wellness
+31,High performing,0,0.4446908425201488,health_score,56.730769230769226,69.66346153846152,health_score is well below the usual level for Beauty & Wellness
+32,High performing,0,0.4875407690174677,Checkout_Completion_Rate,0.5194,0.55045,Checkout_Completion_Rate is well below the usual level for Beauty & Wellness
+33,High performing,0,0.4500710246325124,Conversion_Rate,0.03223,0.031275,Conversion_Rate is well above the usual level for Beauty & Wellness
+34,High performing,0,0.4736415835608482,health_score,79.68749999999999,69.66346153846152,health_score is well above the usual level for Beauty & Wellness
+35,High performing,0,0.4427339282116864,health_score,55.24038461538462,69.66346153846152,health_score is well below the usual level for Beauty & Wellness
+36,High performing,0,0.47075102331548724,Discount_Depth_Pct,0.0944,0.06470000000000001,Discount_Depth_Pct is well above the usual level for Beauty & Wellness
+37,High performing,0,0.43654349484801297,health_score,72.16346153846153,69.66346153846152,health_score is well above the usual level for Beauty & Wellness
+38,High performing,0,0.4470672966199252,health_score,57.8125,69.66346153846152,health_score is well below the usual level for Beauty & Wellness
+39,High performing,0,0.4567295556654672,Checkout_Completion_Rate,0.5375,0.55045,Checkout_Completion_Rate is well below the usual level for Beauty & Wellness
+40,High performing,0,0.4600127759927385,Discount_Depth_Pct,0.1707,0.06470000000000001,Discount_Depth_Pct is well above the usual level for Beauty & Wellness
+41,High performing,0,0.49544190393897425,Sessions,277797.0,139927.5,Sessions is well above the usual level for Beauty & Wellness
+42,High performing,0,0.4758532424315277,Checkout_Completion_Rate,0.571,0.55045,Checkout_Completion_Rate is well above the usual level for Beauty & Wellness
+43,High performing,0,0.47283146529402065,Checkout_Completion_Rate,0.5284,0.55045,Checkout_Completion_Rate is well below the usual level for Beauty & Wellness
+44,High performing,0,0.4582896599528257,avg_order_value,79.62276460924664,73.69091268353958,avg_order_value is well above the usual level for Beauty & Wellness
+45,High performing,0,0.5052069229474331,health_score,86.4423076923077,69.66346153846152,health_score is well above the usual level for Beauty & Wellness
+46,High performing,0,0.440737303926998,health_score,62.884615384615394,69.66346153846152,health_score is well below the usual level for Beauty & Wellness
+47,High performing,0,0.4495706652782916,Checkout_Completion_Rate,0.5392,0.55045,Checkout_Completion_Rate is well below the usual level for Beauty & Wellness
+48,High performing,0,0.4537697109501688,Discount_Depth_Pct,0.0921,0.06470000000000001,Discount_Depth_Pct is well above the usual level for Beauty & Wellness
+49,High performing,0,0.45630807013129215,Conversion_Rate,0.03243,0.031275,Conversion_Rate is well above the usual level for Beauty & Wellness
+50,High performing,0,0.46479636023742066,Conversion_Rate,0.02946,0.031275,Conversion_Rate is well below the usual level for Beauty & Wellness
+51,High performing,0,0.4585431489441925,health_score,60.98557692307692,69.66346153846152,health_score is well below the usual level for Beauty & Wellness
+52,Low performing,0,0.4578055494037664,Checkout_Completion_Rate,0.5331,0.57455,Checkout_Completion_Rate is well below the usual level for Footwear
+53,Low performing,0,0.44814383883568126,Checkout_Completion_Rate,0.5419,0.57455,Checkout_Completion_Rate is well below the usual level for Footwear
+54,Mid performing,1,0.5296356788793697,contribution_margin,0.14613772507385964,0.23151776464191642,contribution_margin is well below the usual level for Footwear
+55,Mid performing,0,0.4661927332497681,health_score,21.177884615384617,39.0625,health_score is well below the usual level for Footwear
+56,Mid performing,0,0.5166277778933607,avg_order_value,77.66215989159892,96.012075272293,avg_order_value is well below the usual level for Footwear
+57,Low performing,0,0.4405389384386618,Checkout_Completion_Rate,0.5475,0.57455,Checkout_Completion_Rate is well below the usual level for Footwear
+58,Mid performing,0,0.44049604275056775,Discount_Depth_Pct,0.1384,0.1683,Discount_Depth_Pct is well below the usual level for Footwear
+59,Mid performing,0,0.4536748746609029,health_score,51.39423076923077,39.0625,health_score is well above the usual level for Footwear
+60,Mid performing,0,0.4785589069636195,health_score,14.278846153846153,39.0625,health_score is well below the usual level for Footwear
+61,Mid performing,0,0.4272727140630806,Discount_Depth_Pct,0.1496,0.1683,Discount_Depth_Pct is well below the usual level for Footwear
+62,Mid performing,0,0.4442204289520597,Checkout_Completion_Rate,0.5615,0.57455,Checkout_Completion_Rate is well below the usual level for Footwear
+63,Mid performing,0,0.4188155607297868,Checkout_Completion_Rate,0.56,0.57455,Checkout_Completion_Rate is well below the usual level for Footwear
+64,Mid performing,0,0.4836305514703117,health_score,62.16346153846154,39.0625,health_score is well above the usual level for Footwear
+65,Mid performing,0,0.44543699061700043,health_score,21.802884615384617,39.0625,health_score is well below the usual level for Footwear
+66,Mid performing,1,0.5465679149971078,Discount_Depth_Pct,0.2657,0.1683,Discount_Depth_Pct is well above the usual level for Footwear
+67,Mid performing,1,0.5247757469491487,health_score,18.990384615384613,39.0625,health_score is well below the usual level for Footwear
+68,Mid performing,1,0.5389960629367332,Discount_Depth_Pct,0.244,0.1683,Discount_Depth_Pct is well above the usual level for Footwear
+69,Mid performing,0,0.4554641420456043,health_score,27.355769230769226,39.0625,health_score is well below the usual level for Footwear
+70,Mid performing,0,0.45931869381121093,health_score,55.096153846153854,39.0625,health_score is well above the usual level for Footwear
+71,Mid performing,0,0.4528918851574826,Checkout_Completion_Rate,0.6046,0.57455,Checkout_Completion_Rate is well above the usual level for Footwear
+72,Mid performing,0,0.5042930140980678,Checkout_Completion_Rate,0.6075,0.57455,Checkout_Completion_Rate is well above the usual level for Footwear
+73,Mid performing,0,0.4622888613118515,health_score,56.39423076923077,39.0625,health_score is well above the usual level for Footwear
+74,Mid performing,0,0.4568706028107799,health_score,22.644230769230766,39.0625,health_score is well below the usual level for Footwear
+75,Mid performing,0,0.45707519306424127,Checkout_Completion_Rate,0.6143,0.57455,Checkout_Completion_Rate is well above the usual level for Footwear
+76,Mid performing,1,0.5172797304045224,Checkout_Completion_Rate,0.6403999999999996,0.57455,Checkout_Completion_Rate is well above the usual level for Footwear
+77,Mid performing,0,0.5002269437181309,Checkout_Completion_Rate,0.615,0.57455,Checkout_Completion_Rate is well above the usual level for Footwear
+78,High performing,0,0.3970059890086175,health_score,59.63942307692308,43.68990384615385,health_score is well above the usual level for Home & Living
+79,Low performing,0,0.41009432934693474,Checkout_Completion_Rate,0.548,0.5313,Checkout_Completion_Rate is well above the usual level for Home & Living
+80,Mid performing,0,0.5069499006452759,Discount_Depth_Pct,0.1824,0.08185,Discount_Depth_Pct is well above the usual level for Home & Living
+81,Low performing,0,0.4501919086177568,Discount_Depth_Pct,0.1473,0.08185,Discount_Depth_Pct is well above the usual level for Home & Living
+82,Low performing,0,0.4311684793625177,health_score,32.067307692307686,43.68990384615385,health_score is well below the usual level for Home & Living
+83,Low performing,0,0.40469367808618023,Return_Rate,0.1101,0.07050000000000001,Return_Rate is well above the usual level for Home & Living
+84,High performing,0,0.4157726188805537,health_score,64.30288461538461,43.68990384615385,health_score is well above the usual level for Home & Living
+85,High performing,0,0.44695003580998827,health_score,68.07692307692308,43.68990384615385,health_score is well above the usual level for Home & Living
+86,High performing,0,0.41378534763760466,health_score,65.24038461538463,43.68990384615385,health_score is well above the usual level for Home & Living
+87,High performing,0,0.4075702790794059,health_score,59.56730769230769,43.68990384615385,health_score is well above the usual level for Home & Living
+88,High performing,0,0.4463239934420869,health_score,65.8173076923077,43.68990384615385,health_score is well above the usual level for Home & Living
+89,High performing,0,0.4176581738993959,health_score,63.26923076923078,43.68990384615385,health_score is well above the usual level for Home & Living
+90,Low performing,0,0.43080748302676924,health_score,62.83653846153846,43.68990384615385,health_score is well above the usual level for Home & Living
+91,Low performing,0,0.4234214941938575,health_score,48.99038461538461,43.68990384615385,health_score is well above the usual level for Home & Living
+92,Mid performing,1,0.528044854093561,Discount_Depth_Pct,0.1975,0.08185,Discount_Depth_Pct is well above the usual level for Home & Living
+93,Low performing,0,0.49077296387284497,Sessions,314005.0,186715.0,Sessions is well above the usual level for Home & Living
+94,Low performing,0,0.40053265339498945,Discount_Depth_Pct,0.1049,0.08185,Discount_Depth_Pct is well above the usual level for Home & Living
+95,Low performing,0,0.4783649123499993,Checkout_Completion_Rate,0.4643500000000004,0.5313,Checkout_Completion_Rate is well below the usual level for Home & Living
+96,Low performing,0,0.47552686592388915,Checkout_Completion_Rate,0.4643500000000004,0.5313,Checkout_Completion_Rate is well below the usual level for Home & Living
+97,Low performing,0,0.4611446844064982,Checkout_Completion_Rate,0.4643500000000004,0.5313,Checkout_Completion_Rate is well below the usual level for Home & Living
+98,Low performing,0,0.47237983736017497,Checkout_Completion_Rate,0.4643500000000004,0.5313,Checkout_Completion_Rate is well below the usual level for Home & Living
+99,Low performing,0,0.4862590455712974,Checkout_Completion_Rate,0.4643500000000004,0.5313,Checkout_Completion_Rate is well below the usual level for Home & Living
+100,Low performing,0,0.4976490501801338,Checkout_Completion_Rate,0.4643500000000004,0.5313,Checkout_Completion_Rate is well below the usual level for Home & Living
+101,Low performing,0,0.47825834310319576,Checkout_Completion_Rate,0.4643500000000004,0.5313,Checkout_Completion_Rate is well below the usual level for Home & Living
+102,Low performing,0,0.4704759347080556,Checkout_Completion_Rate,0.4643500000000004,0.5313,Checkout_Completion_Rate is well below the usual level for Home & Living
+103,Low performing,0,0.4780616071644816,Checkout_Completion_Rate,0.4643500000000004,0.5313,Checkout_Completion_Rate is well below the usual level for Home & Living
+104,High performing,0,0.4102825206849627,health_score,48.70192307692308,59.99999999999999,health_score is well below the usual level for Kids & Toys
+105,High performing,0,0.4813207451246071,health_score,84.03846153846153,59.99999999999999,health_score is well above the usual level for Kids & Toys
+106,High performing,0,0.5065436006093417,Discount_Depth_Pct,0.1966,0.08285000000000001,Discount_Depth_Pct is well above the usual level for Kids & Toys
+107,High performing,0,0.46610337763992776,Sessions,204748.0,83723.5,Sessions is well above the usual level for Kids & Toys
+108,High performing,0,0.5067228855625415,health_score,33.77403846153847,59.99999999999999,health_score is well below the usual level for Kids & Toys
+109,High performing,0,0.46947124257038986,Return_Rate,0.1211,0.0826,Return_Rate is well above the usual level for Kids & Toys
+110,High performing,0,0.4750007652197125,health_score,84.23076923076923,59.99999999999999,health_score is well above the usual level for Kids & Toys
+111,High performing,0,0.425700323892071,health_score,75.5048076923077,59.99999999999999,health_score is well above the usual level for Kids & Toys
+112,High performing,0,0.40874130994063473,avg_order_value,62.95983935742972,65.14821464097817,avg_order_value is well below the usual level for Kids & Toys
+113,High performing,0,0.42574999093034527,health_score,39.32692307692308,59.99999999999999,health_score is well below the usual level for Kids & Toys
+114,High performing,0,0.45674242438976836,health_score,76.39423076923076,59.99999999999999,health_score is well above the usual level for Kids & Toys
+115,High performing,1,0.5220820005718144,health_score,82.78846153846155,59.99999999999999,health_score is well above the usual level for Kids & Toys
+116,High performing,0,0.4403030110402215,Checkout_Completion_Rate,0.531,0.5505500000000001,Checkout_Completion_Rate is well below the usual level for Kids & Toys
+117,High performing,0,0.41665663618528015,health_score,42.47596153846154,59.99999999999999,health_score is well below the usual level for Kids & Toys
+118,High performing,0,0.501300204268536,Discount_Depth_Pct,0.1946,0.08285000000000001,Discount_Depth_Pct is well above the usual level for Kids & Toys
+119,High performing,0,0.45103463374318387,Sessions,207490.0,83723.5,Sessions is well above the usual level for Kids & Toys
+120,High performing,0,0.4512651593563684,Discount_Depth_Pct,0.1373,0.08285000000000001,Discount_Depth_Pct is well above the usual level for Kids & Toys
+121,High performing,0,0.44436798104139624,Return_Rate,0.1215,0.0826,Return_Rate is well above the usual level for Kids & Toys
+122,High performing,0,0.4271281705287118,health_score,73.94230769230768,59.99999999999999,health_score is well above the usual level for Kids & Toys
+123,High performing,0,0.4175024916787575,Checkout_Completion_Rate,0.533,0.5505500000000001,Checkout_Completion_Rate is well below the usual level for Kids & Toys
+124,High performing,0,0.4110689519821525,health_score,50.64903846153847,59.99999999999999,health_score is well below the usual level for Kids & Toys
+125,High performing,0,0.4082658403617201,health_score,64.85576923076923,59.99999999999999,health_score is well above the usual level for Kids & Toys
+126,High performing,0,0.4398649653020119,Checkout_Completion_Rate,0.5338,0.5505500000000001,Checkout_Completion_Rate is well below the usual level for Kids & Toys
+127,High performing,0,0.40687820463180435,health_score,47.13942307692307,59.99999999999999,health_score is well below the usual level for Kids & Toys
+128,High performing,0,0.45956314984090524,health_score,77.3076923076923,59.99999999999999,health_score is well above the usual level for Kids & Toys
+129,High performing,0,0.4216967069519012,Checkout_Completion_Rate,0.5709,0.5505500000000001,Checkout_Completion_Rate is well above the usual level for Kids & Toys
+130,High performing,0,0.41109179355603104,contribution_margin,0.3131867957911137,0.2859038318006068,contribution_margin is well above the usual level for Kitchen & Dining
+131,Low performing,0,0.4396350785888018,health_score,39.66346153846153,55.70913461538462,health_score is well below the usual level for Kitchen & Dining
+132,Low performing,0,0.49012576619196596,Discount_Depth_Pct,0.1791,0.0711,Discount_Depth_Pct is well above the usual level for Kitchen & Dining
+133,High performing,0,0.4346599491792458,health_score,74.25480769230771,55.70913461538462,health_score is well above the usual level for Kitchen & Dining
+134,Low performing,0,0.43080570607843327,health_score,31.682692307692307,55.70913461538462,health_score is well below the usual level for Kitchen & Dining
+135,High performing,0,0.42576889480866853,health_score,70.86538461538461,55.70913461538462,health_score is well above the usual level for Kitchen & Dining
+136,High performing,0,0.4189353950468461,Checkout_Completion_Rate,0.5684,0.55175,Checkout_Completion_Rate is well above the usual level for Kitchen & Dining
+137,High performing,0,0.4373959893952439,health_score,66.10576923076923,55.70913461538462,health_score is well above the usual level for Kitchen & Dining
+138,High performing,0,0.4483053875157172,health_score,77.1875,55.70913461538462,health_score is well above the usual level for Kitchen & Dining
+139,High performing,0,0.4198172021410507,contribution_margin,0.3068061123642232,0.2859038318006068,contribution_margin is well above the usual level for Kitchen & Dining
+140,High performing,0,0.41588177502152773,Discount_Depth_Pct,0.0955,0.0711,Discount_Depth_Pct is well above the usual level for Kitchen & Dining
+141,High performing,0,0.4193552643817425,contribution_margin,0.30700489026277067,0.2859038318006068,contribution_margin is well above the usual level for Kitchen & Dining
+142,High performing,0,0.46515334318614365,health_score,84.47115384615384,55.70913461538462,health_score is well above the usual level for Kitchen & Dining
+143,High performing,0,0.41368157769380964,contribution_margin,0.316992004830137,0.2859038318006068,contribution_margin is well above the usual level for Kitchen & Dining
+144,Low performing,0,0.4331242885831996,Discount_Depth_Pct,0.1734,0.0711,Discount_Depth_Pct is well above the usual level for Kitchen & Dining
+145,High performing,0,0.4297820745229707,Discount_Depth_Pct,0.1288,0.0711,Discount_Depth_Pct is well above the usual level for Kitchen & Dining
+146,High performing,0,0.4165893216426805,Conversion_Rate,0.03017,0.027595,Conversion_Rate is well above the usual level for Kitchen & Dining
+147,High performing,0,0.41605292629316876,Conversion_Rate,0.02601,0.027595,Conversion_Rate is well below the usual level for Kitchen & Dining
+148,Low performing,0,0.4342922586970007,health_score,38.70192307692308,55.70913461538462,health_score is well below the usual level for Kitchen & Dining
+149,High performing,0,0.4397692076624688,health_score,78.72596153846153,55.70913461538462,health_score is well above the usual level for Kitchen & Dining
+150,Low performing,0,0.4179564260787764,health_score,42.355769230769226,55.70913461538462,health_score is well below the usual level for Kitchen & Dining
+151,Low performing,0,0.4593273067956549,health_score,32.71634615384615,55.70913461538462,health_score is well below the usual level for Kitchen & Dining
+152,High performing,0,0.409073013965004,Discount_Depth_Pct,0.0997,0.0711,Discount_Depth_Pct is well above the usual level for Kitchen & Dining
+153,High performing,0,0.41653099477196437,health_score,68.26923076923077,55.70913461538462,health_score is well above the usual level for Kitchen & Dining
+154,High performing,0,0.4288241549583923,health_score,76.29807692307692,55.70913461538462,health_score is well above the usual level for Kitchen & Dining
+155,High performing,0,0.39882304879807623,Return_Rate,0.086,0.06295,Return_Rate is well above the usual level for Kitchen & Dining
+156,Low performing,0,0.48846758090815595,health_score,16.44230769230769,35.75721153846153,health_score is well below the usual level for Outdoor & Travel
+157,Low performing,0,0.4321910807479616,Sessions,154536.0,199131.5,Sessions is well below the usual level for Outdoor & Travel
+158,Mid performing,0,0.5129712714928022,Discount_Depth_Pct,0.1989,0.0912,Discount_Depth_Pct is well above the usual level for Outdoor & Travel
+159,Mid performing,0,0.4387500569943348,Discount_Depth_Pct,0.1549,0.0912,Discount_Depth_Pct is well above the usual level for Outdoor & Travel
+160,Low performing,0,0.4573682195285333,Sessions,132414.0,199131.5,Sessions is well below the usual level for Outdoor & Travel
+161,Low performing,0,0.46148298987589803,Sessions,137369.0,199131.5,Sessions is well below the usual level for Outdoor & Travel
+162,Low performing,0,0.4778638564071146,Sessions,143010.0,199131.5,Sessions is well below the usual level for Outdoor & Travel
+163,Low performing,0,0.45817856549714253,contribution_margin,0.2500214226867231,0.26965640514026096,contribution_margin is well below the usual level for Outdoor & Travel
+164,Low performing,0,0.4659157679650737,health_score,56.730769230769226,35.75721153846153,health_score is well above the usual level for Outdoor & Travel
+165,Low performing,0,0.4693379520732754,health_score,19.54326923076923,35.75721153846153,health_score is well below the usual level for Outdoor & Travel
+166,Low performing,0,0.4558059289514495,health_score,56.97115384615385,35.75721153846153,health_score is well above the usual level for Outdoor & Travel
+167,Low performing,0,0.48925479102989994,health_score,18.00480769230769,35.75721153846153,health_score is well below the usual level for Outdoor & Travel
+168,Low performing,0,0.4375940263361734,health_score,51.63461538461538,35.75721153846153,health_score is well above the usual level for Outdoor & Travel
+169,Low performing,0,0.427759986303169,health_score,27.40384615384615,35.75721153846153,health_score is well below the usual level for Outdoor & Travel
+170,Mid performing,0,0.5172300643768065,Discount_Depth_Pct,0.203,0.0912,Discount_Depth_Pct is well above the usual level for Outdoor & Travel
+171,Low performing,0,0.4424727962659055,Discount_Depth_Pct,0.1503,0.0912,Discount_Depth_Pct is well above the usual level for Outdoor & Travel
+172,Low performing,0,0.4490869967733541,Discount_Depth_Pct,0.1208,0.0912,Discount_Depth_Pct is well above the usual level for Outdoor & Travel
+173,Low performing,0,0.4507818630361066,health_score,56.05769230769232,35.75721153846153,health_score is well above the usual level for Outdoor & Travel
+174,Low performing,0,0.45701038484367024,health_score,54.30288461538461,35.75721153846153,health_score is well above the usual level for Outdoor & Travel
+175,Low performing,0,0.4831713850338058,health_score,61.65865384615385,35.75721153846153,health_score is well above the usual level for Outdoor & Travel
+176,Low performing,1,0.5670973040999959,Checkout_Completion_Rate,0.4643500000000004,0.5425,Checkout_Completion_Rate is well below the usual level for Outdoor & Travel
+177,Low performing,1,0.5948923535960154,Checkout_Completion_Rate,0.4643500000000004,0.5425,Checkout_Completion_Rate is well below the usual level for Outdoor & Travel
+178,Low performing,0,0.4924207501775118,health_score,17.307692307692307,35.75721153846153,health_score is well below the usual level for Outdoor & Travel
+179,Low performing,0,0.4448780766998714,Checkout_Completion_Rate,0.5273,0.5425,Checkout_Completion_Rate is well below the usual level for Outdoor & Travel
+180,Low performing,0,0.46290228515071824,avg_order_value,111.12488873751136,103.41630782703983,avg_order_value is well above the usual level for Outdoor & Travel
+181,Low performing,0,0.45872242118596784,Checkout_Completion_Rate,0.5674,0.5425,Checkout_Completion_Rate is well above the usual level for Outdoor & Travel
+182,High performing,0,0.42613468449702274,health_score,75.09615384615385,55.997596153846146,health_score is well above the usual level for Tech Accessories
+183,High performing,0,0.4320319100476378,health_score,71.22596153846153,55.997596153846146,health_score is well above the usual level for Tech Accessories
+184,Mid performing,0,0.47342562334685423,Discount_Depth_Pct,0.1746,0.07035,Discount_Depth_Pct is well above the usual level for Tech Accessories
+185,Mid performing,0,0.48101274466373073,Sessions,335682.0,192688.5,Sessions is well above the usual level for Tech Accessories
+186,High performing,0,0.45334738169588046,Discount_Depth_Pct,0.107,0.07035,Discount_Depth_Pct is well above the usual level for Tech Accessories
+187,High performing,0,0.4223194076671841,Sessions,161570.0,192688.5,Sessions is well below the usual level for Tech Accessories
+188,High performing,0,0.4310492655453604,health_score,44.08653846153846,55.997596153846146,health_score is well below the usual level for Tech Accessories
+189,High performing,0,0.40807562557090016,health_score,68.29326923076923,55.997596153846146,health_score is well above the usual level for Tech Accessories
+190,High performing,0,0.4215383413830629,health_score,61.97115384615385,55.997596153846146,health_score is well above the usual level for Tech Accessories
+191,High performing,0,0.44171684520946214,health_score,73.14903846153847,55.997596153846146,health_score is well above the usual level for Tech Accessories
+192,High performing,0,0.4241410917203876,Discount_Depth_Pct,0.0928,0.07035,Discount_Depth_Pct is well above the usual level for Tech Accessories
+193,High performing,0,0.4248934691774458,health_score,45.86538461538461,55.997596153846146,health_score is well below the usual level for Tech Accessories
+194,High performing,0,0.40928371401477814,health_score,53.02884615384615,55.997596153846146,health_score is well below the usual level for Tech Accessories
+195,High performing,0,0.4526209476720635,health_score,69.30288461538461,55.997596153846146,health_score is well above the usual level for Tech Accessories
+196,Mid performing,0,0.4880490989899865,Discount_Depth_Pct,0.1865,0.07035,Discount_Depth_Pct is well above the usual level for Tech Accessories
+197,Mid performing,0,0.4798512227344028,Sessions,327419.0,192688.5,Sessions is well above the usual level for Tech Accessories
+198,High performing,0,0.44281179927189723,health_score,70.38461538461537,55.997596153846146,health_score is well above the usual level for Tech Accessories
+199,High performing,0,0.4556639445273375,health_score,66.53846153846153,55.997596153846146,health_score is well above the usual level for Tech Accessories
+200,High performing,0,0.4669754839527299,Checkout_Completion_Rate,0.5073,0.54745,Checkout_Completion_Rate is well below the usual level for Tech Accessories
+201,High performing,0,0.45086381718762497,Checkout_Completion_Rate,0.5178,0.54745,Checkout_Completion_Rate is well below the usual level for Tech Accessories
+202,High performing,0,0.47885094850586307,Checkout_Completion_Rate,0.4993,0.54745,Checkout_Completion_Rate is well below the usual level for Tech Accessories
+203,High performing,0,0.4676824381296824,Checkout_Completion_Rate,0.5057,0.54745,Checkout_Completion_Rate is well below the usual level for Tech Accessories
+204,Low performing,0,0.48232747271234894,Checkout_Completion_Rate,0.4977,0.54745,Checkout_Completion_Rate is well below the usual level for Tech Accessories
+205,High performing,0,0.4892949315451998,Checkout_Completion_Rate,0.5032,0.54745,Checkout_Completion_Rate is well below the usual level for Tech Accessories
+206,High performing,0,0.47151166429249575,Checkout_Completion_Rate,0.502,0.54745,Checkout_Completion_Rate is well below the usual level for Tech Accessories
+207,High performing,0,0.4655613570419837,Checkout_Completion_Rate,0.515,0.54745,Checkout_Completion_Rate is well below the usual level for Tech Accessories

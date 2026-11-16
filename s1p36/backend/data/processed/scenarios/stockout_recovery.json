@@ -1,0 +1,181 @@
+{
+  "id": "stockout_recovery",
+  "title": "Stockout reduction",
+  "description": "What fewer stockout days would recover in the latest month.",
+  "variable": {
+    "key": "reduction_pct",
+    "label": "Stockout days removed",
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "default": 0,
+    "format": "decimal"
+  },
+  "outputs": [
+    {
+      "key": "net_revenue",
+      "label": "Net revenue",
+      "format": "currency"
+    },
+    {
+      "key": "contribution",
+      "label": "Contribution profit",
+      "format": "currency"
+    }
+  ],
+  "table": [
+    {
+      "x": 0.0,
+      "values": {
+        "net_revenue": 3739969.6100000003,
+        "contribution": 1046163.6
+      }
+    },
+    {
+      "x": 5.0,
+      "values": {
+        "net_revenue": 3740741.2689741384,
+        "contribution": 1046512.1043847944
+      }
+    },
+    {
+      "x": 10.0,
+      "values": {
+        "net_revenue": 3741512.927948276,
+        "contribution": 1046860.6087695889
+      }
+    },
+    {
+      "x": 15.0,
+      "values": {
+        "net_revenue": 3742284.586922414,
+        "contribution": 1047209.1131543833
+      }
+    },
+    {
+      "x": 20.0,
+      "values": {
+        "net_revenue": 3743056.245896552,
+        "contribution": 1047557.6175391778
+      }
+    },
+    {
+      "x": 25.0,
+      "values": {
+        "net_revenue": 3743827.90487069,
+        "contribution": 1047906.1219239722
+      }
+    },
+    {
+      "x": 30.0,
+      "values": {
+        "net_revenue": 3744599.563844828,
+        "contribution": 1048254.6263087667
+      }
+    },
+    {
+      "x": 35.0,
+      "values": {
+        "net_revenue": 3745371.222818966,
+        "contribution": 1048603.130693561
+      }
+    },
+    {
+      "x": 40.0,
+      "values": {
+        "net_revenue": 3746142.8817931036,
+        "contribution": 1048951.6350783554
+      }
+    },
+    {
+      "x": 45.0,
+      "values": {
+        "net_revenue": 3746914.5407672417,
+        "contribution": 1049300.13946315
+      }
+    },
+    {
+      "x": 50.0,
+      "values": {
+        "net_revenue": 3747686.19974138,
+        "contribution": 1049648.6438479444
+      }
+    },
+    {
+      "x": 55.0,
+      "values": {
+        "net_revenue": 3748457.8587155174,
+        "contribution": 1049997.1482327387
+      }
+    },
+    {
+      "x": 60.0,
+      "values": {
+        "net_revenue": 3749229.5176896555,
+        "contribution": 1050345.6526175332
+      }
+    },
+    {
+      "x": 65.0,
+      "values": {
+        "net_revenue": 3750001.1766637936,
+        "contribution": 1050694.1570023277
+      }
+    },
+    {
+      "x": 70.0,
+      "values": {
+        "net_revenue": 3750772.8356379312,
+        "contribution": 1051042.661387122
+      }
+    },
+    {
+      "x": 75.0,
+      "values": {
+        "net_revenue": 3751544.4946120693,
+        "contribution": 1051391.1657719165
+      }
+    },
+    {
+      "x": 80.0,
+      "values": {
+        "net_revenue": 3752316.1535862074,
+        "contribution": 1051739.670156711
+      }
+    },
+    {
+      "x": 85.0,
+      "values": {
+        "net_revenue": 3753087.812560345,
+        "contribution": 1052088.1745415055
+      }
+    },
+    {
+      "x": 90.0,
+      "values": {
+        "net_revenue": 3753859.471534483,
+        "contribution": 1052436.6789262998
+      }
+    },
+    {
+      "x": 95.0,
+      "values": {
+        "net_revenue": 3754631.130508621,
+        "contribution": 1052785.1833110943
+      }
+    },
+    {
+      "x": 100.0,
+      "values": {
+        "net_revenue": 3755402.789482759,
+        "contribution": 1053133.6876958888
+      }
+    }
+  ],
+  "assumptions": [
+    "A month is treated as 30 days",
+    "About 50% of lost demand is recovered when stock is available",
+    "Variable cost share of revenue is 55%"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "segment_sizes",
+  "title": "Segment sizes",
+  "type": "bar",
+  "question": "How are category-months split by performance?",
+  "x_label": "Segment",
+  "y_label": "Category-months",
+  "data": [
+    {
+      "label": "High performing",
+      "value": 99
+    },
+    {
+      "label": "Mid performing",
+      "value": 58
+    },
+    {
+      "label": "Low performing",
+      "value": 51
+    }
+  ],
+  "outcome": "understand"
+}

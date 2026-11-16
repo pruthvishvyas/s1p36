@@ -1,0 +1,19 @@
+{
+  "schema_version": "1",
+  "project": "s1p36",
+  "domain": "ecommerce",
+  "client_id": "s1p36",
+  "description": "Monthly performance of an online store by product category: traffic, funnel, pricing, margin and revenue target attainment.",
+  "last_run": "2026-11-15T20:03:45",
+  "rows": 208,
+  "date_range": {
+    "start": "2024-09-01",
+    "end": "2026-10-01"
+  },
+  "currency": {
+    "code": null,
+    "symbol": ""
+  },
+  "locale": "en-US",
+  "source": "csv"
+}

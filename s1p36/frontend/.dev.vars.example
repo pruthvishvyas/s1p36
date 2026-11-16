@@ -1,0 +1,3 @@
+# Local settings for npm run dev. Copy this file to .dev.vars to use them.
+# MCP_MODE=open
+# MCP_TOKEN=choose-a-long-random-value

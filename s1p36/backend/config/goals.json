@@ -1,0 +1,21 @@
+{
+  "revenue_target": {
+    "value": null,
+    "unit": "monthly",
+    "client_sets": true
+  },
+  "alert_drop_pct": {
+    "value": 20,
+    "unit": "percent",
+    "description": "Alert if revenue drops by this %"
+  },
+  "forecast_horizon": {
+    "value": 30,
+    "unit": "days"
+  },
+  "reorder_lead_days": {
+    "value": 7,
+    "unit": "days",
+    "domain": "retail"
+  }
+}

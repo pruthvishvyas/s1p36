@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "priority": "P2_HIGH",
+      "title": "Review price against competitors",
+      "action": "Review price against competitors",
+      "evidence": "Applies to: Home & Living, Tech Accessories",
+      "impact": "Covers 23.9% of latest-month net revenue; combined gap to target 95,778",
+      "when": "Within two weeks",
+      "count": 2
+    },
+    {
+      "priority": "P2_HIGH",
+      "title": "Add promotion or traffic budget to close the target gap",
+      "action": "Add promotion or traffic budget to close the target gap",
+      "evidence": "Applies to: Home & Living",
+      "impact": "Covers 14.2% of latest-month net revenue; combined gap to target 95,778",
+      "when": "Within two weeks",
+      "count": 1
+    },
+    {
+      "priority": "P3_MEDIUM",
+      "title": "Review product pages and sizing guidance",
+      "action": "Review product pages and sizing guidance",
+      "evidence": "Applies to: Apparel, Footwear, Outdoor & Travel",
+      "impact": "Covers 51.6% of latest-month net revenue; combined gap to target 16,676",
+      "when": "This month",
+      "count": 3
+    }
+  ]
+}

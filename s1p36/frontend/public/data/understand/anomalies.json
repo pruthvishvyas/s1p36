@@ -1,0 +1,160 @@
+{
+  "method": "Isolation Forest on standardised performance measures",
+  "total": 17,
+  "rate": 8.17,
+  "items": [
+    {
+      "id": "Apparel Nov 2025",
+      "date": "2025-11-01",
+      "metric": "Discount_Depth_Pct",
+      "value": 0.2889,
+      "expected": 0.1887,
+      "score": 0.6556,
+      "reason": "Discount_Depth_Pct is well above the usual level for Apparel"
+    },
+    {
+      "id": "Apparel Jan 2026",
+      "date": "2026-01-01",
+      "metric": "Discount_Depth_Pct",
+      "value": 0.2642,
+      "expected": 0.1887,
+      "score": 0.6002,
+      "reason": "Discount_Depth_Pct is well above the usual level for Apparel"
+    },
+    {
+      "id": "Outdoor & Travel Jun 2026",
+      "date": "2026-06-01",
+      "metric": "Checkout_Completion_Rate",
+      "value": 0.4644,
+      "expected": 0.5425,
+      "score": 0.5949,
+      "reason": "Checkout_Completion_Rate is well below the usual level for Outdoor & Travel"
+    },
+    {
+      "id": "Apparel Nov 2024",
+      "date": "2024-11-01",
+      "metric": "Sessions",
+      "value": 509320.0,
+      "expected": 331072.0,
+      "score": 0.5922,
+      "reason": "Sessions is well above the usual level for Apparel"
+    },
+    {
+      "id": "Outdoor & Travel May 2026",
+      "date": "2026-05-01",
+      "metric": "Checkout_Completion_Rate",
+      "value": 0.4644,
+      "expected": 0.5425,
+      "score": 0.5671,
+      "reason": "Checkout_Completion_Rate is well below the usual level for Outdoor & Travel"
+    },
+    {
+      "id": "Apparel Jan 2025",
+      "date": "2025-01-01",
+      "metric": "health_score",
+      "value": 13.4375,
+      "expected": 39.7356,
+      "score": 0.5639,
+      "reason": "health_score is well below the usual level for Apparel"
+    },
+    {
+      "id": "Apparel Dec 2024",
+      "date": "2024-12-01",
+      "metric": "Sessions",
+      "value": 505315.0,
+      "expected": 331072.0,
+      "score": 0.5596,
+      "reason": "Sessions is well above the usual level for Apparel"
+    },
+    {
+      "id": "Apparel Dec 2025",
+      "date": "2025-12-01",
+      "metric": "Sessions",
+      "value": 530485.0,
+      "expected": 331072.0,
+      "score": 0.5514,
+      "reason": "Sessions is well above the usual level for Apparel"
+    },
+    {
+      "id": "Footwear Nov 2025",
+      "date": "2025-11-01",
+      "metric": "Discount_Depth_Pct",
+      "value": 0.2657,
+      "expected": 0.1683,
+      "score": 0.5466,
+      "reason": "Discount_Depth_Pct is well above the usual level for Footwear"
+    },
+    {
+      "id": "Apparel Feb 2026",
+      "date": "2026-02-01",
+      "metric": "Checkout_Completion_Rate",
+      "value": 0.6221,
+      "expected": 0.5859,
+      "score": 0.5443,
+      "reason": "Checkout_Completion_Rate is well above the usual level for Apparel"
+    },
+    {
+      "id": "Footwear Jan 2026",
+      "date": "2026-01-01",
+      "metric": "Discount_Depth_Pct",
+      "value": 0.244,
+      "expected": 0.1683,
+      "score": 0.539,
+      "reason": "Discount_Depth_Pct is well above the usual level for Footwear"
+    },
+    {
+      "id": "Footwear Nov 2024",
+      "date": "2024-11-01",
+      "metric": "contribution_margin",
+      "value": 0.1461,
+      "expected": 0.2315,
+      "score": 0.5296,
+      "reason": "contribution_margin is well below the usual level for Footwear"
+    },
+    {
+      "id": "Home & Living Nov 2025",
+      "date": "2025-11-01",
+      "metric": "Discount_Depth_Pct",
+      "value": 0.1975,
+      "expected": 0.0819,
+      "score": 0.528,
+      "reason": "Discount_Depth_Pct is well above the usual level for Home & Living"
+    },
+    {
+      "id": "Apparel Oct 2026",
+      "date": "2026-10-01",
+      "metric": "Checkout_Completion_Rate",
+      "value": 0.6226,
+      "expected": 0.5859,
+      "score": 0.5269,
+      "reason": "Checkout_Completion_Rate is well above the usual level for Apparel"
+    },
+    {
+      "id": "Footwear Dec 2025",
+      "date": "2025-12-01",
+      "metric": "health_score",
+      "value": 18.9904,
+      "expected": 39.0625,
+      "score": 0.5248,
+      "reason": "health_score is well below the usual level for Footwear"
+    },
+    {
+      "id": "Kids & Toys Aug 2025",
+      "date": "2025-08-01",
+      "metric": "health_score",
+      "value": 82.7885,
+      "expected": 60.0,
+      "score": 0.5221,
+      "reason": "health_score is well above the usual level for Kids & Toys"
+    },
+    {
+      "id": "Footwear Sep 2026",
+      "date": "2026-09-01",
+      "metric": "Checkout_Completion_Rate",
+      "value": 0.6404,
+      "expected": 0.5746,
+      "score": 0.5173,
+      "reason": "Checkout_Completion_Rate is well above the usual level for Footwear"
+    }
+  ]
+}

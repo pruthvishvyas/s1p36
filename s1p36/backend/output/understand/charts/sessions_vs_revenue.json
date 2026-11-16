@@ -1,0 +1,1051 @@
+{
+  "id": "sessions_vs_revenue",
+  "title": "Traffic against revenue",
+  "type": "scatter",
+  "question": "Does more traffic turn into more revenue in every category?",
+  "x_label": "Sessions",
+  "y_label": "Net revenue",
+  "data": [
+    {
+      "x": 137369.0,
+      "y": 289600.92,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 530485.0,
+      "y": 1068900.13,
+      "label": "Apparel"
+    },
+    {
+      "x": 183362.0,
+      "y": 462480.99,
+      "label": "Footwear"
+    },
+    {
+      "x": 174535.0,
+      "y": 426245.52,
+      "label": "Home & Living"
+    },
+    {
+      "x": 210148.0,
+      "y": 502386.06,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 321300.0,
+      "y": 664395.7,
+      "label": "Apparel"
+    },
+    {
+      "x": 198213.0,
+      "y": 482786.07,
+      "label": "Home & Living"
+    },
+    {
+      "x": 83450.0,
+      "y": 216810.54,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 323378.0,
+      "y": 662559.4,
+      "label": "Apparel"
+    },
+    {
+      "x": 105550.0,
+      "y": 242324.92,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 276492.0,
+      "y": 587859.6,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 103994.0,
+      "y": 230438.25,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 139859.0,
+      "y": 343516.15,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 217075.0,
+      "y": 489394.01,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 84233.0,
+      "y": 166859.14,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 327419.0,
+      "y": 449369.68,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 199786.0,
+      "y": 461883.88,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 191066.0,
+      "y": 317265.96,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 153628.0,
+      "y": 437633.32,
+      "label": "Home & Living"
+    },
+    {
+      "x": 223969.0,
+      "y": 511187.61,
+      "label": "Footwear"
+    },
+    {
+      "x": 84089.0,
+      "y": 163850.4,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 257925.0,
+      "y": 490037.73,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 85494.0,
+      "y": 158644.76,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 189265.0,
+      "y": 434049.08,
+      "label": "Home & Living"
+    },
+    {
+      "x": 166664.0,
+      "y": 367652.47,
+      "label": "Footwear"
+    },
+    {
+      "x": 377113.0,
+      "y": 799927.74,
+      "label": "Apparel"
+    },
+    {
+      "x": 159876.0,
+      "y": 357417.57,
+      "label": "Home & Living"
+    },
+    {
+      "x": 299797.0,
+      "y": 556998.17,
+      "label": "Apparel"
+    },
+    {
+      "x": 115088.0,
+      "y": 263464.37,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 335682.0,
+      "y": 470991.87,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 120833.0,
+      "y": 338623.55,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 167895.0,
+      "y": 349236.19,
+      "label": "Footwear"
+    },
+    {
+      "x": 291808.0,
+      "y": 575528.8,
+      "label": "Footwear"
+    },
+    {
+      "x": 75157.0,
+      "y": 143439.14,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 103047.0,
+      "y": 237677.98,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 201770.0,
+      "y": 439719.36,
+      "label": "Home & Living"
+    },
+    {
+      "x": 111806.0,
+      "y": 281771.79,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 184314.0,
+      "y": 368249.5,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 144544.0,
+      "y": 362222.36,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 83358.0,
+      "y": 154431.45,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 194162.0,
+      "y": 427919.16,
+      "label": "Footwear"
+    },
+    {
+      "x": 239080.0,
+      "y": 501110.91,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 158213.0,
+      "y": 470468.95,
+      "label": "Home & Living"
+    },
+    {
+      "x": 195006.0,
+      "y": 328993.11,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 277345.0,
+      "y": 587100.2,
+      "label": "Footwear"
+    },
+    {
+      "x": 157200.0,
+      "y": 386802.87,
+      "label": "Home & Living"
+    },
+    {
+      "x": 190511.0,
+      "y": 319917.67,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 189977.0,
+      "y": 308540.11,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 138804.0,
+      "y": 301675.2,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 339594.0,
+      "y": 751335.55,
+      "label": "Apparel"
+    },
+    {
+      "x": 165022.0,
+      "y": 342634.77,
+      "label": "Footwear"
+    },
+    {
+      "x": 220495.0,
+      "y": 351466.53,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 231926.0,
+      "y": 481152.95,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 334992.0,
+      "y": 642150.15,
+      "label": "Apparel"
+    },
+    {
+      "x": 257119.0,
+      "y": 527170.44,
+      "label": "Footwear"
+    },
+    {
+      "x": 314005.0,
+      "y": 804180.73,
+      "label": "Home & Living"
+    },
+    {
+      "x": 251052.0,
+      "y": 547091.66,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 218007.0,
+      "y": 410282.88,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 275455.0,
+      "y": 528879.29,
+      "label": "Apparel"
+    },
+    {
+      "x": 174118.0,
+      "y": 355012.19,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 150012.0,
+      "y": 286573.37,
+      "label": "Footwear"
+    },
+    {
+      "x": 89103.0,
+      "y": 176756.09,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 87069.0,
+      "y": 199283.11,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 96464.0,
+      "y": 242543.98,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 69488.0,
+      "y": 118393.44,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 261674.0,
+      "y": 470477.35,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 109066.0,
+      "y": 235679.68,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 344546.0,
+      "y": 687735.74,
+      "label": "Apparel"
+    },
+    {
+      "x": 129212.0,
+      "y": 279323.7,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 198799.0,
+      "y": 377069.36,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 122201.0,
+      "y": 277223.61,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 196458.0,
+      "y": 485862.65,
+      "label": "Home & Living"
+    },
+    {
+      "x": 195537.0,
+      "y": 445113.65,
+      "label": "Home & Living"
+    },
+    {
+      "x": 113999.0,
+      "y": 307083.92,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 174820.0,
+      "y": 395637.68,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 90809.0,
+      "y": 158423.12,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 184104.0,
+      "y": 421726.83,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 190796.0,
+      "y": 500824.84,
+      "label": "Footwear"
+    },
+    {
+      "x": 277797.0,
+      "y": 570930.7,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 86055.0,
+      "y": 191087.31,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 170527.0,
+      "y": 451800.59,
+      "label": "Home & Living"
+    },
+    {
+      "x": 246702.0,
+      "y": 441224.15,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 117764.0,
+      "y": 273305.42,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 98778.0,
+      "y": 225456.46,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 71331.0,
+      "y": 137566.39,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 173018.0,
+      "y": 277328.95,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 509320.0,
+      "y": 881092.2,
+      "label": "Apparel"
+    },
+    {
+      "x": 214844.0,
+      "y": 583201.36,
+      "label": "Footwear"
+    },
+    {
+      "x": 156485.0,
+      "y": 358561.85,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 66610.0,
+      "y": 136015.75,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 77665.0,
+      "y": 163663.08,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 184165.0,
+      "y": 542065.38,
+      "label": "Home & Living"
+    },
+    {
+      "x": 170821.0,
+      "y": 497308.24,
+      "label": "Home & Living"
+    },
+    {
+      "x": 107880.0,
+      "y": 242583.95,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 138756.0,
+      "y": 310598.77,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 138485.0,
+      "y": 244655.14,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 159554.0,
+      "y": 351216.05,
+      "label": "Footwear"
+    },
+    {
+      "x": 355448.0,
+      "y": 674640.71,
+      "label": "Apparel"
+    },
+    {
+      "x": 102599.0,
+      "y": 251785.1,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 203236.0,
+      "y": 477611.54,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 120158.0,
+      "y": 281037.68,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 327152.0,
+      "y": 611781.8,
+      "label": "Apparel"
+    },
+    {
+      "x": 206303.0,
+      "y": 347666.87,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 212968.0,
+      "y": 430388.68,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 311657.0,
+      "y": 621847.95,
+      "label": "Apparel"
+    },
+    {
+      "x": 125831.0,
+      "y": 291083.45,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 161436.0,
+      "y": 303481.85,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 161449.0,
+      "y": 258051.5,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 119898.0,
+      "y": 295080.66,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 266507.0,
+      "y": 443922.18,
+      "label": "Apparel"
+    },
+    {
+      "x": 127216.0,
+      "y": 274306.77,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 83167.0,
+      "y": 156770.0,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 183566.0,
+      "y": 289077.57,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 207490.0,
+      "y": 354966.17,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 123164.0,
+      "y": 274604.72,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 79470.0,
+      "y": 166100.88,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 326534.0,
+      "y": 668971.45,
+      "label": "Apparel"
+    },
+    {
+      "x": 171599.0,
+      "y": 388563.2,
+      "label": "Footwear"
+    },
+    {
+      "x": 72787.0,
+      "y": 159683.28,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 120425.0,
+      "y": 288047.72,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 156051.0,
+      "y": 324125.77,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 315644.0,
+      "y": 616239.4,
+      "label": "Apparel"
+    },
+    {
+      "x": 161570.0,
+      "y": 252861.99,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 240832.0,
+      "y": 509524.18,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 189226.0,
+      "y": 468900.41,
+      "label": "Footwear"
+    },
+    {
+      "x": 143010.0,
+      "y": 333504.36,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 179929.0,
+      "y": 464093.59,
+      "label": "Footwear"
+    },
+    {
+      "x": 138839.0,
+      "y": 339272.6,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 98737.0,
+      "y": 222635.13,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 206009.0,
+      "y": 392598.81,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 79188.0,
+      "y": 161150.25,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 347938.0,
+      "y": 749403.51,
+      "label": "Apparel"
+    },
+    {
+      "x": 173920.0,
+      "y": 248213.85,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 121995.0,
+      "y": 320386.5,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 281243.0,
+      "y": 712629.88,
+      "label": "Home & Living"
+    },
+    {
+      "x": 165519.0,
+      "y": 372004.25,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 198477.0,
+      "y": 503625.69,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 169799.0,
+      "y": 397672.05,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 162136.0,
+      "y": 437395.02,
+      "label": "Home & Living"
+    },
+    {
+      "x": 186086.0,
+      "y": 312649.45,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 127107.0,
+      "y": 301320.43,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 190828.0,
+      "y": 408335.6,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 505315.0,
+      "y": 972633.51,
+      "label": "Apparel"
+    },
+    {
+      "x": 87233.0,
+      "y": 192608.19,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 179565.0,
+      "y": 419649.69,
+      "label": "Footwear"
+    },
+    {
+      "x": 202572.0,
+      "y": 479563.63,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 192494.0,
+      "y": 301104.9,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 177804.0,
+      "y": 373085.79,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 210947.0,
+      "y": 313970.95,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 160074.0,
+      "y": 393121.33,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 257059.0,
+      "y": 620061.61,
+      "label": "Home & Living"
+    },
+    {
+      "x": 139054.0,
+      "y": 320241.41,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 300320.0,
+      "y": 631208.66,
+      "label": "Apparel"
+    },
+    {
+      "x": 76738.0,
+      "y": 168180.06,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 206372.0,
+      "y": 561920.17,
+      "label": "Home & Living"
+    },
+    {
+      "x": 143246.0,
+      "y": 365147.97,
+      "label": "Home & Living"
+    },
+    {
+      "x": 312003.0,
+      "y": 476723.67,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 192883.0,
+      "y": 319826.76,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 189491.0,
+      "y": 533150.47,
+      "label": "Home & Living"
+    },
+    {
+      "x": 297097.0,
+      "y": 639144.84,
+      "label": "Apparel"
+    },
+    {
+      "x": 358067.0,
+      "y": 777557.02,
+      "label": "Apparel"
+    },
+    {
+      "x": 176991.0,
+      "y": 421896.12,
+      "label": "Footwear"
+    },
+    {
+      "x": 202590.0,
+      "y": 330314.32,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 109359.0,
+      "y": 242326.09,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 263174.0,
+      "y": 506423.89,
+      "label": "Apparel"
+    },
+    {
+      "x": 185990.0,
+      "y": 471140.06,
+      "label": "Footwear"
+    },
+    {
+      "x": 203369.0,
+      "y": 324912.75,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 88274.0,
+      "y": 182201.37,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 172887.0,
+      "y": 389104.2,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 201154.0,
+      "y": 332594.01,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 196417.0,
+      "y": 442923.29,
+      "label": "Footwear"
+    },
+    {
+      "x": 249637.0,
+      "y": 484344.34,
+      "label": "Footwear"
+    },
+    {
+      "x": 204748.0,
+      "y": 377714.34,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 160667.0,
+      "y": 376738.1,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 190166.0,
+      "y": 446712.66,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 186578.0,
+      "y": 291506.41,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 197698.0,
+      "y": 416006.86,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 164210.0,
+      "y": 378902.97,
+      "label": "Footwear"
+    },
+    {
+      "x": 152366.0,
+      "y": 361243.99,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 161738.0,
+      "y": 481296.93,
+      "label": "Home & Living"
+    },
+    {
+      "x": 337661.0,
+      "y": 718230.63,
+      "label": "Apparel"
+    },
+    {
+      "x": 144762.0,
+      "y": 316814.46,
+      "label": "Footwear"
+    },
+    {
+      "x": 132414.0,
+      "y": 264791.36,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 173757.0,
+      "y": 271261.41,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 86116.0,
+      "y": 175470.61,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 140801.0,
+      "y": 328488.7,
+      "label": "Beauty & Wellness"
+    },
+    {
+      "x": 154536.0,
+      "y": 328771.5,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 328361.0,
+      "y": 537378.94,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 312549.0,
+      "y": 622908.44,
+      "label": "Apparel"
+    },
+    {
+      "x": 165246.0,
+      "y": 336016.49,
+      "label": "Footwear"
+    },
+    {
+      "x": 114996.0,
+      "y": 316688.39,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 100024.0,
+      "y": 233732.14,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 114462.0,
+      "y": 258664.33,
+      "label": "Kitchen & Dining"
+    },
+    {
+      "x": 216646.0,
+      "y": 530190.28,
+      "label": "Home & Living"
+    },
+    {
+      "x": 181321.0,
+      "y": 433676.67,
+      "label": "Home & Living"
+    },
+    {
+      "x": 79873.0,
+      "y": 161266.91,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 177893.0,
+      "y": 484571.43,
+      "label": "Home & Living"
+    },
+    {
+      "x": 198054.0,
+      "y": 442706.59,
+      "label": "Footwear"
+    },
+    {
+      "x": 68897.0,
+      "y": 137636.75,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 219097.0,
+      "y": 364934.13,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 349284.0,
+      "y": 713007.93,
+      "label": "Apparel"
+    },
+    {
+      "x": 177272.0,
+      "y": 266206.84,
+      "label": "Tech Accessories"
+    },
+    {
+      "x": 196987.0,
+      "y": 467670.24,
+      "label": "Footwear"
+    },
+    {
+      "x": 132811.0,
+      "y": 225615.44,
+      "label": "Kids & Toys"
+    },
+    {
+      "x": 490035.0,
+      "y": 851092.3,
+      "label": "Apparel"
+    },
+    {
+      "x": 303627.0,
+      "y": 818262.25,
+      "label": "Home & Living"
+    },
+    {
+      "x": 233977.0,
+      "y": 497151.53,
+      "label": "Outdoor & Travel"
+    },
+    {
+      "x": 212729.0,
+      "y": 484785.55,
+      "label": "Home & Living"
+    }
+  ],
+  "outcome": "decide"
+}

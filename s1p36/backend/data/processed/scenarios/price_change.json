@@ -1,0 +1,321 @@
+{
+  "id": "price_change",
+  "title": "Price change",
+  "description": "What a store-wide price change would do to the latest month, other things equal.",
+  "variable": {
+    "key": "price_pct",
+    "label": "Price change",
+    "unit": "%",
+    "min": -20,
+    "max": 20,
+    "step": 1,
+    "default": 0,
+    "format": "decimal"
+  },
+  "outputs": [
+    {
+      "key": "net_revenue",
+      "label": "Net revenue",
+      "format": "currency"
+    },
+    {
+      "key": "contribution",
+      "label": "Contribution profit",
+      "format": "currency"
+    }
+  ],
+  "table": [
+    {
+      "x": -20.0,
+      "values": {
+        "net_revenue": 3266984.2881765817,
+        "contribution": 384670.2144239771
+      }
+    },
+    {
+      "x": -19.0,
+      "values": {
+        "net_revenue": 3291668.3874763236,
+        "contribution": 420290.03194319876
+      }
+    },
+    {
+      "x": -18.0,
+      "values": {
+        "net_revenue": 3316232.6861978523,
+        "contribution": 455603.43994776503
+      }
+    },
+    {
+      "x": -17.0,
+      "values": {
+        "net_revenue": 3340679.216263122,
+        "contribution": 490617.87279717496
+      }
+    },
+    {
+      "x": -16.0,
+      "values": {
+        "net_revenue": 3365009.951119886,
+        "contribution": 525340.4872910053
+      }
+    },
+    {
+      "x": -15.0,
+      "values": {
+        "net_revenue": 3389226.8080990436,
+        "contribution": 559778.1763928272
+      }
+    },
+    {
+      "x": -14.0,
+      "values": {
+        "net_revenue": 3413331.6506504104,
+        "contribution": 593937.58211706
+      }
+    },
+    {
+      "x": -13.0,
+      "values": {
+        "net_revenue": 3437326.290464483,
+        "contribution": 627825.1076391146
+      }
+    },
+    {
+      "x": -12.0,
+      "values": {
+        "net_revenue": 3461212.489487291,
+        "contribution": 661446.928684224
+      }
+    },
+    {
+      "x": -11.0,
+      "values": {
+        "net_revenue": 3484991.961834844,
+        "contribution": 694809.0042457783
+      }
+    },
+    {
+      "x": -10.0,
+      "values": {
+        "net_revenue": 3508666.375613269,
+        "contribution": 727917.0866798853
+      }
+    },
+    {
+      "x": -9.0,
+      "values": {
+        "net_revenue": 3532237.3546502646,
+        "contribution": 760776.7312191275
+      }
+    },
+    {
+      "x": -8.0,
+      "values": {
+        "net_revenue": 3555706.48014312,
+        "contribution": 793393.3049450677
+      }
+    },
+    {
+      "x": -7.0,
+      "values": {
+        "net_revenue": 3579075.2922281926,
+        "contribution": 825771.9952559827
+      }
+    },
+    {
+      "x": -6.0,
+      "values": {
+        "net_revenue": 3602345.2914763703,
+        "contribution": 857917.8178634433
+      }
+    },
+    {
+      "x": -5.0,
+      "values": {
+        "net_revenue": 3625517.9403187777,
+        "contribution": 889835.6243488069
+      }
+    },
+    {
+      "x": -4.0,
+      "values": {
+        "net_revenue": 3648594.6644066623,
+        "contribution": 921530.109308314
+      }
+    },
+    {
+      "x": -3.0,
+      "values": {
+        "net_revenue": 3671576.853909165,
+        "contribution": 953005.8171133373
+      }
+    },
+    {
+      "x": -2.0,
+      "values": {
+        "net_revenue": 3694465.864752412,
+        "contribution": 984267.1483103463
+      }
+    },
+    {
+      "x": -1.0,
+      "values": {
+        "net_revenue": 3717263.0198031594,
+        "contribution": 1015318.3656833635
+      }
+    },
+    {
+      "x": 0.0,
+      "values": {
+        "net_revenue": 3739969.6100000003,
+        "contribution": 1046163.6
+      }
+    },
+    {
+      "x": 1.0,
+      "values": {
+        "net_revenue": 3762586.8954349654,
+        "contribution": 1076806.8554606799
+      }
+    },
+    {
+      "x": 2.0,
+      "values": {
+        "net_revenue": 3785116.106388147,
+        "contribution": 1107252.014869216
+      }
+    },
+    {
+      "x": 3.0,
+      "values": {
+        "net_revenue": 3807558.4443178424,
+        "contribution": 1137502.844541663
+      }
+    },
+    {
+      "x": 4.0,
+      "values": {
+        "net_revenue": 3829915.082808535,
+        "contribution": 1167562.9989691589
+      }
+    },
+    {
+      "x": 5.0,
+      "values": {
+        "net_revenue": 3852187.1684788866,
+        "contribution": 1197436.0252493785
+      }
+    },
+    {
+      "x": 6.0,
+      "values": {
+        "net_revenue": 3874375.821851815,
+        "contribution": 1227125.3673002569
+      }
+    },
+    {
+      "x": 7.0,
+      "values": {
+        "net_revenue": 3896482.138188555,
+        "contribution": 1256634.3698686494
+      }
+    },
+    {
+      "x": 8.0,
+      "values": {
+        "net_revenue": 3918507.188288535,
+        "contribution": 1285966.2823458042
+      }
+    },
+    {
+      "x": 9.0,
+      "values": {
+        "net_revenue": 3940452.019256767,
+        "contribution": 1315124.2624006926
+      }
+    },
+    {
+      "x": 10.0,
+      "values": {
+        "net_revenue": 3962317.6552403555,
+        "contribution": 1344111.3794415323
+      }
+    },
+    {
+      "x": 11.0,
+      "values": {
+        "net_revenue": 3984105.0981356306,
+        "contribution": 1372930.6179151456
+      }
+    },
+    {
+      "x": 12.0,
+      "values": {
+        "net_revenue": 4005815.3282673485,
+        "contribution": 1401584.8804531943
+      }
+    },
+    {
+      "x": 13.0,
+      "values": {
+        "net_revenue": 4027449.3050412755,
+        "contribution": 1430076.9908737224
+      }
+    },
+    {
+      "x": 14.0,
+      "values": {
+        "net_revenue": 4049007.9675714513,
+        "contribution": 1458409.6970459241
+      }
+    },
+    {
+      "x": 15.0,
+      "values": {
+        "net_revenue": 4070492.235283307,
+        "contribution": 1486585.6736255477
+      }
+    },
+    {
+      "x": 16.0,
+      "values": {
+        "net_revenue": 4091903.008493781,
+        "contribution": 1514607.5246678744
+      }
+    },
+    {
+      "x": 17.0,
+      "values": {
+        "net_revenue": 4113241.168969494,
+        "contribution": 1542477.7861247926
+      }
+    },
+    {
+      "x": 18.0,
+      "values": {
+        "net_revenue": 4134507.580463997,
+        "contribution": 1570198.9282320852
+      }
+    },
+    {
+      "x": 19.0,
+      "values": {
+        "net_revenue": 4155703.0892350427,
+        "contribution": 1597773.357792659
+      }
+    },
+    {
+      "x": 20.0,
+      "values": {
+        "net_revenue": 4176828.5245427904,
+        "contribution": 1625203.4203611321
+      }
+    }
+  ],
+  "assumptions": [
+    "Price elasticity of -0.39 (estimated from the data)",
+    "Cost of goods and fulfilment move with units, marketing stays fixed",
+    "Latest month totals across all categories are the starting point"
+  ]
+}
